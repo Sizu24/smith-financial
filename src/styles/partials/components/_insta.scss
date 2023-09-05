@@ -1,0 +1,30 @@
+.insta {
+
+}
+
+.insta-container {
+  padding: 5% 20%;
+  text-align: center;
+}
+
+.insta__title {
+  padding-bottom: rem(20px);
+  font-family: $ff-main;
+  font-weight: $fw-bold;
+  font-size: rem(48px);
+  color: $dark-gray;
+}
+
+.insta-feed {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: masonry;
+  gap: 10px;
+}
+
+.insta-feed__post {
+  background-color: $dark-gray;
+  border-radius: rem(20px);
+  width: 300px;
+  height: 400px;
+}

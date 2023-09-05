@@ -1,0 +1,119 @@
+.why-choose-us {
+  text-align: center;
+}
+
+.why-choose-us-container {
+  padding: 10% 5%;
+  background-color: $navy-blue;
+}
+
+.why-choose-us__title {
+  position: absolute;
+  top: 25px;
+  font-family: $ff-main;
+  font-weight: $fw-bold;
+  font-size: rem(48px);
+  color: $navy-blue;
+}
+
+.text-media {
+  display: flex;
+  padding: rem(50px 200px);
+  gap: rem(50px);
+  flex-direction: row;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.text-media__media {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.text-media__media-container {
+  position: relative;
+  max-width: rem(400px);
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  border-radius: rem(20px);
+  box-shadow: 5px 5px 10px rgba($dark-gray, 0.25);
+}
+
+.text-media__media-image.selected {
+  position: absolute;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.text-media__media-image {
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+
+.text-media__text {
+  width: 50%;
+  font-family: $ff-main;
+  text-align: left;
+}
+
+.text-media__list {
+  list-style: none;
+}
+
+.text-media__list-item {
+  padding: rem(10px 0);
+  cursor: pointer;
+
+  &:hover {
+    .text-media__list-title {
+      opacity: 1;
+      font-size: rem(32px);
+      color: $dark-gray;
+      cursor: pointer;
+    }
+  
+    .text-media__list-body {
+      opacity: 1;
+      font-size: rem(28px);
+      color: $dark-gray;
+      cursor: pointer;
+    }
+  }
+}
+
+.text-media__list-item.selected {
+
+  .text-media__list-title {
+    opacity: 1;
+    font-size: rem(32px);
+    color: $dark-gray;
+  }
+
+  .text-media__list-body {
+    opacity: 1;
+    font-size: rem(28px);
+    color: $dark-gray;
+  }
+}
+
+.text-media__list-title {
+  opacity: 0.5;
+  font-weight: $fw-light;
+  transition: all .2s ease-in-out;
+}
+
+.text-media__list-body {
+  opacity: 0.5;
+  font-weight: $fw-light;
+  transition: all .2s ease-in-out;
+  line-height: 1.4;
+}

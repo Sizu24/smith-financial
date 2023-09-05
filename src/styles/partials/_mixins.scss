@@ -1,0 +1,15 @@
+@mixin size($value) {
+  @media (width >= $value) {
+    @content;
+  }
+}
+
+@function rem($values) {
+  $basePixel: 16px;
+  $remValues: ();
+  @each $value in $values {
+    $remValue: if($value == 0, 0, calc($value / $basePixel) + rem);
+    $remValues: append($remValues, $remValue);
+  }
+  @return $remValues;
+}

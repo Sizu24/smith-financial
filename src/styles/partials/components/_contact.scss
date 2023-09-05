@@ -1,0 +1,109 @@
+.contact {
+  position: relative;
+  width: 100vw;
+}
+
+.contact__background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  z-index: -1;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  padding: 5%;
+  // background: rgb(49,72,97);
+  // background: linear-gradient(90deg, rgba(49,72,97,1) 35%, rgba(101,143,176,1) 100%);
+  text-align: center;
+  border-radius: rem(15px);
+  gap: 50px;
+}
+
+.contact-content {
+  padding: rem(0 25px 25px 25px);
+  width: 50%;
+}
+
+.contact__title {
+  padding-bottom: rem(40px);
+  font-family: $ff-main;
+  font-weight: $fw-bold;
+  font-size: rem(48px);
+  color: $light;
+  text-align: left;
+}
+
+.contact__body {
+  max-width: 85%;
+  text-align: left;
+}
+
+.contact__body-item {
+  padding-bottom: rem(20px);
+  font-family: $ff-main;
+  font-weight: $fw-reg;
+  font-size: rem(18px);
+  color: $light;
+  line-height: 1.2;
+}
+
+.contact-form-container {
+  width: 50%;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  padding: rem(50px);
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  border-radius: rem(20px);
+  box-shadow: 5px 5px 15px rgba($color: #000000, $alpha: 0.25);
+}
+
+.contact-form__label {
+  margin-bottom: rem(5px);
+  font-family: $ff-main;
+  color: $navy-blue;
+  text-align: left;
+}
+
+.contact-form__input {
+  padding: rem(15px 8px);
+  width: 100%;
+  margin-bottom: rem(10px);
+  background-color: $light;
+  border-radius: rem(5px);
+  border: none;
+}
+
+.contact-form__textbox {
+  margin-bottom: rem(20px);
+  padding: rem(15px 8px);
+  max-width: rem(600px);
+  width: 100%;
+  background-color: $light;
+  border-radius: rem(5px);
+  border: none;
+}
+
+.contact-form__submit {
+  padding: rem(16px 64px);
+  background-color: $ocean-blue;
+  color: $light;
+  border: 2px solid transparent;
+  border-radius: rem(5px);
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $light;
+    color: $navy-blue;
+    border: 2px solid $navy-blue;
+  }
+}
