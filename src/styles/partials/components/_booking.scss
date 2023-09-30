@@ -1,0 +1,18 @@
+.booking {
+  background-color: $navy-blue;
+}
+
+.booking-container {
+  padding: 20px;
+  text-align: center;
+  @include size($md) {
+    padding: rem(100px);
+  }
+}
+
+.booking__title {
+  font-family: $ff-main;
+  font-weight: $fw-bold;
+  font-size: rem(48px);
+  color: $light;
+}

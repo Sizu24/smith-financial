@@ -24,7 +24,9 @@
       </ul>
     </nav>
   </header>
+
   <main>
+
     <div class="hero">
       <div class="hero__video-container">
         <div class="hero__overlay"></div>
@@ -78,6 +80,7 @@
         </div>
       </div>
     </div>
+
     <div class="goals">
       <div class="goals-container">
         <h2 class="goals__title">Helping You Achieve Your Financial Goals</h2>
@@ -142,6 +145,7 @@
         </div>
       </div>
     </div>
+
     <div class="insta">
       <div class="insta-container">
         <h2 class="insta__title">Financial Insights</h2>
@@ -155,6 +159,16 @@
           <div class="insta-feed__post"></div>
           <div class="insta-feed__post"></div>
         </div>
+      </div>
+    </div>
+
+    <div class="booking">
+      <div class="booking-container">
+        <h2 class="booking__title">Ready to Talk Finance? Reserve Your Consultation</h2>
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/mattsmithinc33" style="min-width:320px;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
       </div>
     </div>
 
@@ -181,7 +195,7 @@
           </form>
         </div>
         <div class="contact-content">
-          <h2 class="contact__title">Contact us for a FREE consultation if you...</h2>
+          <h2 class="contact__title">Contact us for FREE information if you...</h2>
           <ul class="contact__body">
             <li class="contact__body-item">Want to make your money work smarter to reach your financial goals.</li>
             <li class="contact__body-item">Need clarity on your goals and want a roadmap to achieve them.</li>
@@ -190,7 +204,9 @@
         </div>
       </div>
     </div>
+
   </main>
+
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-column">
@@ -217,6 +233,7 @@
       <p>&copy 2023 Wealth Builders Empire</p>
     </div>
   </footer>
+
   <script type="module" src="./src/scripts/scripts.js"></script>
 </body>
 </html>

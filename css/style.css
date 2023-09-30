@@ -422,6 +422,27 @@ body {
   border: 2px solid #001F3F;
 }
 
+.booking {
+  background-color: #001F3F;
+}
+
+.booking-container {
+  padding: 20px;
+  text-align: center;
+}
+@media (width >= 768px) {
+  .booking-container {
+    padding: 6.25rem;
+  }
+}
+
+.booking__title {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #f1f1f1;
+}
+
 .footer {
   background-color: #001F3F;
 }
