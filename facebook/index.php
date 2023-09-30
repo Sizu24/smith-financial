@@ -7,7 +7,9 @@
 
       <!-- Set the element id for the JSON response -->
   
-      <p id="profile"></p>
+      <p id="profile">
+
+      </p>
 
       <script>
   
@@ -28,7 +30,7 @@
             FB.init({
               appId            : '{267770262794160}',
               xfbml            : true,
-              version          : '{the-graph-api-version-for-your-app}'
+              version          : '{18.0}'
             });
             // If you are logged in, automatically get your name and email adress, your public profile information
             FB.login(function(response) {
@@ -42,6 +44,10 @@
                     console.log('User cancelled login or did not fully authorize.'); }
             });
         };
+
+        FB.getLoginStatus(function(response) {
+            statusChangeCallback(response);
+        });
 
       </script>
 
