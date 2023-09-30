@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Title</title>
+  <title>Wealth Builders Empire</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="nofollow">
   <meta name="description" content=""> 
@@ -214,7 +214,7 @@
       </div>
     </div>  
     <div class="footer-legal">
-      <p>©2023 Matthew Smith</p>
+      <p>&copy 2023 Wealth Builders Empire</p>
     </div>
   </footer>
   <script type="module" src="./src/scripts/scripts.js"></script>
