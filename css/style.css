@@ -326,7 +326,6 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  width: 100vw;
   z-index: -1;
 }
 
@@ -369,7 +368,7 @@ body {
 }
 
 .contact-form-container {
-  width: 50%;
+  width: 100%;
 }
 
 .contact-form {
@@ -402,7 +401,6 @@ body {
 .contact-form__textbox {
   margin-bottom: 1.25rem;
   padding: 0.9375rem 0.5rem;
-  max-width: 37.5rem;
   width: 100%;
   background-color: #f1f1f1;
   border-radius: 0.3125rem;
@@ -422,6 +420,56 @@ body {
   background-color: #f1f1f1;
   color: #001F3F;
   border: 2px solid #001F3F;
+}
+
+.footer {
+  background-color: #001F3F;
+}
+
+.footer-content {
+  padding-top: 18.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer-links {
+  padding: none;
+  list-style: none;
+}
+
+.footer-links__item {
+  margin-bottom: 20px;
+}
+
+.footer-links__item a {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.footer-contact {
+  list-style: none;
+}
+
+.footer-contact__item {
+  margin-bottom: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #f1f1f1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer-legal {
+  padding: 0.625rem 3.125rem;
+  font-size: 0.875rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #f1f1f1;
 }
 
 /*# sourceMappingURL=style.css.map */

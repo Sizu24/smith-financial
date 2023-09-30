@@ -7,7 +7,6 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 100vw;
   z-index: -1;
 }
 
@@ -52,7 +51,7 @@
 }
 
 .contact-form-container {
-  width: 50%;
+  width: 100%;
 }
 
 .contact-form {
@@ -85,7 +84,6 @@
 .contact-form__textbox {
   margin-bottom: rem(20px);
   padding: rem(15px 8px);
-  max-width: rem(600px);
   width: 100%;
   background-color: $light;
   border-radius: rem(5px);

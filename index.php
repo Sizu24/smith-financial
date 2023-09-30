@@ -181,7 +181,7 @@
           </form>
         </div>
         <div class="contact-content">
-          <h2 class="contact__title">Contact us for a free consultation if you...</h2>
+          <h2 class="contact__title">Contact us for a FREE consultation if you...</h2>
           <ul class="contact__body">
             <li class="contact__body-item">Want to make your money work smarter to reach your financial goals.</li>
             <li class="contact__body-item">Need clarity on your goals and want a roadmap to achieve them.</li>
@@ -192,9 +192,31 @@
     </div>
   </main>
   <footer class="footer">
-
-  
+    <div class="footer-content">
+      <div class="footer-column">
+        <img src="" alt="" class="footer__logo">
+      </div>
+      <div class="footer-column">
+        <ul class="footer-links">
+          <li class="footer-links__item"><a href="">About</a></li>
+          <li class="footer-links__item"><a href="">Financial Goals</a></li>
+          <li class="footer-links__item"><a href="">Services</a></li>
+          <li class="footer-links__item"><a href="">Knowledge</a></li>
+          <li class="footer-links__item"><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <ul class="footer-contact">
+          <li class="footer-contact__item">Call</li>
+          <li class="footer-contact__item">IG</li>
+          <li class="footer-contact__item">Email</li>
+        </ul>
+      </div>
+    </div>  
+    <div class="footer-legal">
+      <p>©2023 Matthew Smith</p>
+    </div>
   </footer>
-  <script src="./src/scripts/scripts.js"></script>
+  <script type="module" src="./src/scripts/scripts.js"></script>
 </body>
 </html>

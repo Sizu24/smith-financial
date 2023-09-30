@@ -1,4 +1,5 @@
 whyChooseUsList();
+getUser();
 
 function whyChooseUsList() {
   const listItems = document.querySelectorAll('.js-wcu-list');
@@ -15,3 +16,12 @@ function whyChooseUsList() {
     images[index].classList.add('selected');
   }, 15000);
 }
+
+function getUser() {
+  fetch('https://api.calendly.com/users/mattsmithinc33')
+  .then(res => res.json())
+  .then(data => console.log(data))
+  .catch((error) => console.error(error));
+}
+
+
