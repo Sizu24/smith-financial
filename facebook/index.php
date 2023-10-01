@@ -24,7 +24,7 @@
               appId      : '{267770262794160}',
               cookie     : true,
               xfbml      : true,
-              version    : '{17}'
+              version    : 'v18.0'
             });
             // If you are logged in, automatically get your name and email adress, your public profile information
             FB.login(function(response) {
@@ -47,8 +47,10 @@
             }(document, 'script', 'facebook-jssdk'));
 
             FB.getLoginStatus(function(response) {
-              statusChangeCallback(response);
-            });
+              if (response.status === 'connected') {
+                var accessToken = response.authResponse.accessToken;
+              } 
+            } );
         };
 
       </script>
