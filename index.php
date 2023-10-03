@@ -149,15 +149,8 @@
     <div class="insta">
       <div class="insta-container">
         <h2 class="insta__title">Financial Insights</h2>
-        <div class="insta-feed">
-          <div class="insta-feed__post"></div>
-          <div class="insta-feed__post"></div>
-          <div class="insta-feed__post"></div>
-          <div class="insta-feed__post"></div>
-          <div class="insta-feed__post"></div>
-          <div class="insta-feed__post"></div>
-          <div class="insta-feed__post"></div>
-          <div class="insta-feed__post"></div>
+        <div class="insta-feed js-ig-feed">
+
         </div>
       </div>
     </div>
