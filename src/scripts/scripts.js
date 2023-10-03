@@ -29,7 +29,7 @@ function getUser() {
 function getProfileMedia() {
   const mediaId = 'your-media-id'; // Replace with the actual media ID
   const fields = 'id,caption,media_url,thumbnail_url,permalink'; // Replace with the desired fields
-  const accessToken = 'IGQWROWnRvekxiRVBZAZAHg3QXItR3ZAXXy1ZANklRbnAwaWZA1aWgzNWNFUDF1UGw4dVBPS3FTSm1QVmhWWWwwMmJWTERRUWtVVTdIcU1LRldMTUVFT2F0QVNRUTgyMVZAlcWtzWS02ODVUelJDUQZDZD'; // Replace with your access token
+  const accessToken = ''; // Replace with your access token
   fetch(`https://graph.instagram.com/me/media?fields=${fields}&access_token=${accessToken}`)
   .then(res => res.json())
   .then(data => {posts = data; showMedia(posts);})
@@ -42,7 +42,7 @@ function showMedia(posts) {
   for (let i = 0; i < 9; i++) {
     html += `
       <div class="insta-feed__post">
-        <a href="${posts.data[i].permalink}" target="_blank">
+        <a href="${posts.data[i].media_url}">
           <img src="${posts.data[i].thumbnail_url}" alt="Instagram Post">
         </a>
       </div>
