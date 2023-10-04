@@ -150,6 +150,7 @@
     <div class="insta">
       <div class="insta-container">
         <h2 class="insta__title">Financial Insights</h2>
+        <h2 class="insta__subhead">Stay informed with some of my latest FREE financial knowledge</h2>
         <div class="insta-feed js-ig-feed">
 
         </div>

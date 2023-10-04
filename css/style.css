@@ -298,10 +298,17 @@ body {
 }
 
 .insta__title {
-  padding-bottom: 1.25rem;
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 3rem;
+  color: #545454;
+}
+
+.insta__subhead {
+  padding-bottom: 1.25rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
   color: #545454;
 }
 

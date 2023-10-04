@@ -10,10 +10,17 @@
 }
 
 .insta__title {
-  padding-bottom: rem(20px);
   font-family: $ff-main;
   font-weight: $fw-bold;
   font-size: rem(48px);
+  color: $dark-gray;
+}
+
+.insta__subhead {
+  padding-bottom: rem(20px);
+  font-family: $ff-main;
+  font-weight: $fw-light;
+  font-size: rem(24px);
   color: $dark-gray;
 }
 
