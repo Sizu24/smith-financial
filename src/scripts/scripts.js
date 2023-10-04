@@ -1,5 +1,5 @@
 whyChooseUsList();
-getUser();
+// getUser();
 getProfileMedia();
 let posts;
 
@@ -19,18 +19,17 @@ function whyChooseUsList() {
   }, 15000);
 }
 
-function getUser() {
-  fetch('https://api.calendly.com/users/mattsmithinc33')
-  .then(res => res.json())
-  .then(data => console.log(data))
-  .catch((error) => console.error(error));
-}
+// function getUser() {
+//   fetch('https://api.calendly.com/users/mattsmithinc33')
+//   .then(res => res.json())
+//   .then(data => console.log(data))
+//   .catch((error) => console.error(error));
+// }
 
 function getProfileMedia() {
   const mediaId = 'your-media-id'; // Replace with the actual media ID
   const fields = 'id,caption,media_url,thumbnail_url,permalink'; // Replace with the desired fields
-  const accessToken = ''; // Replace with your access token
-  fetch(`https://graph.instagram.com/me/media?fields=${fields}&access_token=${accessToken}`)
+  fetch(`https://graph.instagram.com/me/media?fields=${fields}&access_token=${longToken}`)
   .then(res => res.json())
   .then(data => {posts = data; showMedia(posts);})
   .catch((error) => console.error(error));
@@ -42,15 +41,13 @@ function showMedia(posts) {
   for (let i = 0; i < 9; i++) {
     html += `
       <div class="insta-feed__post">
-        <a href="${posts.data[i].media_url}">
+        <a href="${posts.data[i].permalink}">
           <img src="${posts.data[i].thumbnail_url}" alt="Instagram Post">
         </a>
       </div>
     `;
   }
   feed.innerHTML = html;
-  console.log(html);
-  console.log(posts.data[0].thumbnail_url);
 }
 
 
