@@ -6,18 +6,38 @@
   display: flex;
   flex-direction: row;
   list-style: none;
-  font-family: $ff-main;
-  font-weight: $fw-reg;
-  font-size: rem(18px);
-  color: $light;
 }
 
 .nav__list-item {
-  padding: rem(10px 20px);
   cursor: pointer;
   transition: all .3s ease-in-out;
 
   &:hover {
     color: $navy-blue;
+  }
+}
+
+.nav__list-link {
+  padding: rem(10px 20px);
+  font-family: $ff-main;
+  font-weight: $fw-reg;
+  font-size: rem(18px);
+  color: $light;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+
+  &:link {
+    color: $light;
+    &:hover {
+      color: $navy-blue;
+    }
+  }
+
+  &:visited {
+    color: $light;
+    &:hover {
+      color: $navy-blue;
+    }
   }
 }

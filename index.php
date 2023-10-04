@@ -17,11 +17,11 @@
     <img class="header__logo" src="" alt="">
     <nav class="nav">
       <ul class="nav__list">
-        <li class="nav__list-item">About</li>
-        <li class="nav__list-item">Financial Goals</li>
-        <li class="nav__list-item">Services</li>
-        <li class="nav__list-item">Knowledge</li>
-        <li class="nav__list-item">Contact</li>
+        <li class="nav__list-item"><a class="nav__list-link" href="#about">About</a></li>
+        <li class="nav__list-item"><a class="nav__list-link" href="#goals">Financial Goals</a></li>
+        <li class="nav__list-item"><a class="nav__list-link" href="#appointment">Book Appointment</a></li>
+        <li class="nav__list-item"><a class="nav__list-link" href="#knowledge">Knowledge</a></li>
+        <li class="nav__list-item"><a class="nav__list-link" href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -46,7 +46,7 @@
       </div>
     </div>
 
-    <div class="why-choose-us">
+    <div class="why-choose-us" id="about">
       <div class="why-choose-us-container">
         <div class="text-media">
           <div class="text-media__media">
@@ -82,7 +82,7 @@
       </div>
     </div>
 
-    <div class="goals">
+    <div class="goals" id="goals">
       <div class="goals-container">
         <h2 class="goals__title">Helping You Achieve Your Financial Goals</h2>
         <div class="goals-content">
@@ -147,7 +147,7 @@
       </div>
     </div>
 
-    <div class="insta">
+    <div class="insta" id="knowledge">
       <div class="insta-container">
         <h2 class="insta__title">Financial Insights</h2>
         <h2 class="insta__subhead">Stay informed with some of my latest FREE financial knowledge</h2>
