@@ -38,13 +38,15 @@ function getProfileMedia() {
 function showMedia(posts) {
   const feed = document.querySelector('.js-ig-feed');
   let html = "";
-  for (let i = 0; i < 9; i++) {
+  for (let i = 0; i < 8; i++) {
     html += `
-      <div class="insta-feed__post">
-        <a href="${posts.data[i].permalink}">
-          <img src="${posts.data[i].thumbnail_url}" alt="Instagram Post">
-        </a>
-      </div>
+      <a class="insta-feed__image-container insta-feed__image-container--${i}" href="${posts.data[i].permalink}">
+        <img class="insta-feed__image" src="${posts.data[i].thumbnail_url}" alt="Instagram Post">
+        <div class="insta-feed__image-title">
+          <img src="./src/icons/instagram.svg" alt="" class="goals-cards__card-image">
+          <h3>${posts.data[i].caption}</h3>
+        </div>
+      </a>
     `;
   }
   feed.innerHTML = html;
