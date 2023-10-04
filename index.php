@@ -40,8 +40,8 @@
         <h1 class="hero__title">Your Financial Future Starts Here</h1>
         <p class="hero__subhead">Personalized plans to secure your finances and empower your dreams</p>
         <div class="hero__cta-group">
-          <button class="hero__cta">Get a FREE Consultation</button>
-          <button class="hero__cta">Tell Me More</button>
+          <a href="#appointment" class="hero__cta">Get a FREE Consultation</a>
+          <a href="#contact" class="hero__cta">Tell Me More</a>
         </div>
       </div>
     </div>
@@ -157,7 +157,7 @@
       </div>
     </div>
 
-    <div class="booking">
+    <div class="booking" id="appointment">
       <div class="booking-container">
         <h2 class="booking__title">Ready to Talk Finance? Reserve Your Consultation</h2>
         <!-- Calendly inline widget begin -->
@@ -167,7 +167,7 @@
       </div>
     </div>
 
-    <div class="contact">
+    <div class="contact" id="contact">
       <img class="contact__background" src="./src/images/contact-image.svg" alt="">
       <div class="contact-container">
         <div class="contact-form-container">
