@@ -171,7 +171,7 @@
       <img class="contact__background" src="./src/images/contact-image.svg" alt="">
       <div class="contact-container">
         <div class="contact-form-container">
-          <form class="contact-form">
+          <form method="post" action="./contact-success/" class="contact-form">
             <label for="first-name" class="contact-form__label">First Name</label>
             <input class="contact-form__input" id="first-name" name="first-name" type="text">
 

@@ -166,7 +166,9 @@ body {
 
 .text-media {
   display: flex;
+  margin: 0 auto;
   padding: 3.125rem 12.5rem;
+  max-width: 1440px;
   gap: 3.125rem;
   flex-direction: row;
   background-color: #fff;
@@ -178,7 +180,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  padding-top: 300px;
   width: 50%;
 }
 
@@ -264,7 +266,9 @@ body {
 }
 
 .goals-container {
+  margin: 0 auto;
   padding: 5%;
+  max-width: 1440px;
 }
 
 .goals__title {
@@ -433,7 +437,9 @@ body {
 
 .contact {
   position: relative;
-  width: 100vw;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
 }
 
 .contact__background {
