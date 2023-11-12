@@ -26,8 +26,8 @@
 
 .insta-feed {
   display: grid;
-  grid-template-columns: repeat(4, minmax(250px, 1fr));
-  grid-template-rows: repeat(auto, minmax(0, 250px));
+  grid-template-columns: repeat(4, minmax(180px, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 250px));
   gap: 10px;
   margin: rem(50px 0 80px);
   padding: 0 20px;
