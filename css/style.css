@@ -673,17 +673,23 @@ body {
   margin: 0 auto;
   width: 100%;
   max-width: 1440px;
+  background-color: #398BAB;
+}
+@media (width >= 768px) {
+  .contact {
+    background-color: #fff;
+  }
 }
 
 .contact__background {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  z-index: -1;
+  display: none;
 }
 @media (width >= 768px) {
   .contact__background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
     height: auto;
     width: auto;
   }
@@ -706,7 +712,11 @@ body {
 
 .contact-content {
   padding: 0 1.5625rem 1.5625rem 1.5625rem;
-  width: 50%;
+}
+@media (width >= 768px) {
+  .contact-content {
+    width: 50%;
+  }
 }
 
 .contact__title {
@@ -714,13 +724,13 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 2rem;
-  color: #545454;
-  text-align: left;
+  color: #f1f1f1;
+  text-align: center;
 }
 @media (width >= 768px) {
   .contact__title {
+    text-align: left;
     font-size: 3rem;
-    color: #f1f1f1;
   }
 }
 
@@ -734,13 +744,8 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 1.125rem;
-  color: #545454;
+  color: #f1f1f1;
   line-height: 1.2;
-}
-@media (width >= 768px) {
-  .contact__body-item {
-    color: #f1f1f1;
-  }
 }
 
 .contact-form-container {

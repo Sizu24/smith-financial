@@ -3,16 +3,21 @@
   margin: 0 auto;
   width: 100%;
   max-width: 1440px;
+  background-color: $ocean-blue;
+
+  @include size($md) {
+    background-color: #fff;
+  }
 }
 
 .contact__background {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100%;
-  z-index: -1;
+  display: none;
 
   @include size($md) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
     height: auto;
     width: auto;
   }
@@ -36,7 +41,10 @@
 
 .contact-content {
   padding: rem(0 25px 25px 25px);
-  width: 50%;
+
+  @include size($md) {
+    width: 50%;
+  }
 }
 
 .contact__title {
@@ -44,12 +52,12 @@
   font-family: $ff-main;
   font-weight: $fw-bold;
   font-size: rem(32px);
-  color: $dark-gray;
-  text-align: left;
+  color: $light;
+  text-align: center;
 
   @include size($md) {
+    text-align: left;
     font-size: rem(48px);
-    color: $light;
   }
 }
 
@@ -63,12 +71,8 @@
   font-family: $ff-main;
   font-weight: $fw-reg;
   font-size: rem(18px);
-  color: $dark-gray;
+  color: $light;
   line-height: 1.2;
-
-  @include size($md) {
-    color: $light;
-  }
 }
 
 .contact-form-container {
