@@ -9,12 +9,19 @@
   position: absolute;
   top: 0;
   right: 0;
+  height: 100%;
+  width: 100%;
   z-index: -1;
+
+  @include size($md) {
+    height: auto;
+    width: auto;
+  }
 }
 
 .contact-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: space-between;
   padding: 5%;
   // background: rgb(49,72,97);
@@ -22,6 +29,10 @@
   text-align: center;
   border-radius: rem(15px);
   gap: 50px;
+
+  @include size($md) {
+    flex-direction: row;
+  }
 }
 
 .contact-content {
@@ -34,8 +45,12 @@
   font-family: $ff-main;
   font-weight: $fw-bold;
   font-size: rem(48px);
-  color: $light;
+  color: $dark-gray;
   text-align: left;
+
+  @include size($md) {
+    color: $light;
+  }
 }
 
 .contact__body {
@@ -48,8 +63,12 @@
   font-family: $ff-main;
   font-weight: $fw-reg;
   font-size: rem(18px);
-  color: $light;
+  color: $dark-gray;
   line-height: 1.2;
+
+  @include size($md) {
+    color: $light;
+  }
 }
 
 .contact-form-container {
@@ -59,12 +78,16 @@
 .contact-form {
   display: flex;
   justify-content: space-between;
-  padding: rem(50px);
+  padding: rem(34px 34px 34px 20px);
   flex-direction: column;
-  align-items: flex-start;
   background-color: #fff;
   border-radius: rem(20px);
   box-shadow: 5px 5px 15px rgba($color: #000000, $alpha: 0.25);
+
+  @include size($md) {
+    align-items: flex-start;
+    padding: rem(50px);
+  }
 }
 
 .contact-form__label {

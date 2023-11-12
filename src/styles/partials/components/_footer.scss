@@ -3,10 +3,14 @@
 }
 
 .footer-content {
-  padding-top: rem(300px);
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  padding-top: rem(50px);
+
+  @include size($md) {
+    flex-direction: row;
+  }
 }
 
 .footer-column {
@@ -16,8 +20,14 @@
 }
 
 .footer-links {
-  padding: none;
+  padding: 0 20px;
   list-style: none;
+
+  @include size($md) {
+    display: flex;
+    gap: 20px;
+  }
+
 } 
 
 .footer-links__item {
@@ -33,7 +43,13 @@
 }
 
 .footer-contact {
+  padding: 0 20px;
   list-style: none;
+
+  @include size($md) {
+    display: flex;
+    gap: 20px;
+  }
 }
 
 .footer-contact__item {
@@ -47,9 +63,14 @@
 }
 
 .footer-legal {
-  padding: rem(10px 50px);
+  padding: rem(10px 20px);
   font-size: rem(14px);
   font-family: $ff-main;
   font-weight: $fw-reg;
   color: $light;
+
+  @include size($md) {
+    padding: rem(10px 50px);
+    text-align: center;
+  }
 }

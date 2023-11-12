@@ -18,9 +18,12 @@
 }
 
 .goals-cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 1fr;
+  
+  @include size($md) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 1fr;
+  }
 }
 
 .goals-cards__card {
