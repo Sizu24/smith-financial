@@ -714,12 +714,13 @@ body {
   padding-bottom: 2.5rem;
   font-family: "Lato", sans-serif;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #545454;
   text-align: left;
 }
 @media (width >= 768px) {
   .contact__title {
+    font-size: 3rem;
     color: #f1f1f1;
   }
 }

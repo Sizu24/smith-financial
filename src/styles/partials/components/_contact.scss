@@ -44,11 +44,12 @@
   padding-bottom: rem(40px);
   font-family: $ff-main;
   font-weight: $fw-bold;
-  font-size: rem(48px);
+  font-size: rem(32px);
   color: $dark-gray;
   text-align: left;
 
   @include size($md) {
+    font-size: rem(48px);
     color: $light;
   }
 }
