@@ -9,7 +9,6 @@
   position: absolute;
   top: 0;
   right: 0;
-  height: 100%;
   width: 100%;
   z-index: -1;
 
@@ -21,7 +20,7 @@
 
 .contact-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: space-between;
   padding: 5%;
   // background: rgb(49,72,97);
