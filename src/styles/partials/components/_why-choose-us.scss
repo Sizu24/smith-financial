@@ -15,7 +15,7 @@
   font-size: rem(24px);
   color: $navy-blue;
 
-  @include size($md) {
+  @include size($lg) {
     font-size: rem(48px);
   }
 }
@@ -29,7 +29,7 @@
   background-color: #fff;
   border-radius: 15px;
 
-  @include size($md) {
+  @include size($lg) {
     flex-direction: row;
     padding: rem(50px 200px);
   }
@@ -43,7 +43,7 @@
   padding-top: rem(120px);
   width: 100%;
 
-  @include size($md) {
+  @include size($lg) {
     padding-top: rem(300px);
     width: 50%;
   }
@@ -79,7 +79,7 @@
   font-family: $ff-main;
   text-align: left;
 
-  @include size($md) {
+  @include size($lg) {
     padding-top: rem(300px);
     width: 50%;
   }

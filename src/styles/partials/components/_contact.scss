@@ -6,7 +6,7 @@
   background-color: $ocean-blue;
 
   @include size($md) {
-    background-color: #fff;
+    background-color: transparent;
   }
 }
 

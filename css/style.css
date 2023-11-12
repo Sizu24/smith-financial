@@ -331,7 +331,7 @@ body {
   font-size: 1.5rem;
   color: #001F3F;
 }
-@media (width >= 768px) {
+@media (width >= 1024px) {
   .why-choose-us__title {
     font-size: 3rem;
   }
@@ -346,7 +346,7 @@ body {
   background-color: #fff;
   border-radius: 15px;
 }
-@media (width >= 768px) {
+@media (width >= 1024px) {
   .text-media {
     flex-direction: row;
     padding: 3.125rem 12.5rem;
@@ -361,7 +361,7 @@ body {
   padding-top: 7.5rem;
   width: 100%;
 }
-@media (width >= 768px) {
+@media (width >= 1024px) {
   .text-media__media {
     padding-top: 18.75rem;
     width: 50%;
@@ -398,7 +398,7 @@ body {
   font-family: "Lato", sans-serif;
   text-align: left;
 }
-@media (width >= 768px) {
+@media (width >= 1024px) {
   .text-media__text {
     padding-top: 18.75rem;
     width: 50%;
@@ -668,7 +668,7 @@ body {
 }
 @media (width >= 768px) {
   .contact {
-    background-color: #fff;
+    background-color: transparent;
   }
 }
 
