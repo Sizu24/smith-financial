@@ -1,4 +1,4 @@
-
+navToggle();
 whyChooseUsList();
 // getUser();
 getProfileMedia();
@@ -51,6 +51,17 @@ function showMedia(posts) {
     `;
   }
   feed.innerHTML = html;
+}
+
+function navToggle() {
+  const navToggle = document.querySelector('.js-nav-toggle');
+  const navButton = document.querySelector('.js-nav-button');
+  const navList = document.querySelector('.js-nav-list');
+
+  navToggle.addEventListener('click', ()=> {
+    navButton.classList.toggle('open');
+    navList.classList.toggle('show');
+  });
 }
 
 

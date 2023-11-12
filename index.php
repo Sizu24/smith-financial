@@ -24,6 +24,19 @@
         <li class="nav__list-item"><a class="nav__list-link" href="#contact">Contact</a></li>
       </ul>
     </nav>
+
+    <nav class="nav-mobile">
+      <div class="nav-toggle js-nav-toggle">
+        <div class="nav-toggle__button js-nav-button"></div>
+      </div>
+      <ul class="nav-mobile__list js-nav-list">
+        <li class="nav-mobile__list-item"><a class="nav-mobile__list-link" href="#about">About</a></li>
+        <li class="nav-mobile__list-item"><a class="nav-mobile__list-link" href="#goals">Financial Goals</a></li>
+        <li class="nav-mobile__list-item"><a class="nav-mobile__list-link" href="#appointment">Book Appointment</a></li>
+        <li class="nav-mobile__list-item"><a class="nav-mobile__list-link" href="#knowledge">Knowledge</a></li>
+        <li class="nav-mobile__list-item"><a class="nav-mobile__list-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
