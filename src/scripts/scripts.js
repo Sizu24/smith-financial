@@ -62,6 +62,15 @@ function navToggle() {
     navButton.classList.toggle('open');
     navList.classList.toggle('show');
   });
+
+  // Close navDrop if clicked outside of navToggle and navDrop
+  document.addEventListener("click", function (event) {
+    const target = event.target;
+    if (target !== navToggle && target !== navButton) {
+      navList.classList.remove('show');
+      navButton.classList.remove('open');
+    }
+  });
 }
 
 
