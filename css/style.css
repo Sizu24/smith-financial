@@ -142,17 +142,22 @@ body {
 }
 .hero__cta:nth-of-type(2) {
   background-color: transparent;
-  color: #f1f1f1;
+  color: #545454;
   border: 2px solid #545454;
 }
 .hero__cta:nth-of-type(2):hover {
-  background-color: #545454;
-  color: #001F3F;
+  background-color: #001F3F;
+  color: #f1f1f1;
 }
 @media (width >= 768px) {
   .hero__cta:nth-of-type(2) {
     color: #f1f1f1;
     border: 2px solid #f1f1f1;
+  }
+  .hero__cta:nth-of-type(2):hover {
+    background-color: #001F3F;
+    color: #f1f1f1;
+    border: 2px solid #001F3F;
   }
 }
 

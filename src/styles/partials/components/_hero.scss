@@ -79,12 +79,12 @@
 
   &:nth-of-type(2) {
     background-color: transparent;
-    color: $light;
+    color: $dark-gray;
     border: 2px solid $dark-gray;
 
     &:hover {
-      background-color: $dark-gray;
-      color: $navy-blue;
+      background-color: $navy-blue;
+      color: $light;
     }
   }
 
@@ -93,6 +93,12 @@
     &:nth-of-type(2) {
       color: $light;
       border: 2px solid $light;
+
+      &:hover {
+        background-color: $navy-blue;
+        color: $light;
+        border: 2px solid $navy-blue;
+      }
     }
   }
 }
