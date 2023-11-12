@@ -1,16 +1,15 @@
 .hero {
   position: relative;
+  height: 100vh;
   overflow: hidden;
 
   @include size($md) {
     padding: 0;
-    height: 100vh;
   }
 }
 
 .hero__overlay {
 
-  @include size($md) {
     position: absolute;
     top: 0;
     left: 0;
@@ -18,14 +17,15 @@
     height: 100%;
     background: linear-gradient(to right, rgba($navy-blue,0.8) -20%, rgba($light,0.0));
     z-index: 1; 
-  }
 }
 
 .hero__content {
+  position: absolute;
+  top: 30%;
   padding: 20px;
+  z-index: 1;
 
   @include size($md) {
-    position: absolute;
     top: 25%;
     left: 0;
     right: 0;
@@ -38,12 +38,11 @@
   margin-bottom: rem(0);
   font-family: $ff-main;
   font-weight: $fw-bold;
-  font-size: rem(32px);
-  color: $dark-gray;
+  font-size: rem(48px);
+  color: $light;
 
   @include size($md) {
     font-size: rem(72px);
-    color: $light;
   }
 }
 
@@ -52,11 +51,7 @@
   font-family: $ff-main;
   font-weight: $fw-reg;
   font-size: rem(18px);
-  color: $dark-gray;
-
-  @include size($md) {
-    color: $light;
-  }
+  color: $light;
 }
 
 .hero__cta {
@@ -78,27 +73,14 @@
   }
 
   &:nth-of-type(2) {
-    background-color: transparent;
-    color: $dark-gray;
-    border: 2px solid $dark-gray;
+    background-color: transparent; 
+    color: $light;
+    border: 2px solid $light;
 
     &:hover {
       background-color: $navy-blue;
       color: $light;
-    }
-  }
-
-  @include size($md) {
-
-    &:nth-of-type(2) {
-      color: $light;
-      border: 2px solid $light;
-
-      &:hover {
-        background-color: $navy-blue;
-        color: $light;
-        border: 2px solid $navy-blue;
-      }
+      border: 2px solid $navy-blue;
     }
   }
 }
@@ -130,9 +112,15 @@
 
 .hero__video {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
+  object-position: 30%;
   transform: rotateY(180deg);
   -webkit-transform:rotateY(180deg);
   -moz-transform:rotateY(180deg); 
+
+  @include size($md) {
+    object-position: auto;
+    height: auto;
+  }
 }
