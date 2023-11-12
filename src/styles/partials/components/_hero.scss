@@ -9,6 +9,7 @@
 }
 
 .hero__overlay {
+  
   @include size($md) {
     position: absolute;
     top: 0;
