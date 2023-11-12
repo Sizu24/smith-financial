@@ -9,7 +9,7 @@
 }
 
 .hero__overlay {
-  
+
   @include size($md) {
     position: absolute;
     top: 0;
@@ -85,6 +85,14 @@
     &:hover {
       background-color: $light;
       color: $navy-blue;
+    }
+  }
+
+  @include size($md) {
+
+    &:nth-of-type(2) {
+      color: $dark-gray;
+      border: 2px solid $dark-gray;
     }
   }
 }

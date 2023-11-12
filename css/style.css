@@ -149,6 +149,12 @@ body {
   background-color: #f1f1f1;
   color: #001F3F;
 }
+@media (width >= 768px) {
+  .hero__cta:nth-of-type(2) {
+    color: #545454;
+    border: 2px solid #545454;
+  }
+}
 
 .hero__cta-group {
   display: flex;
