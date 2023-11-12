@@ -547,6 +547,14 @@ body {
   grid-template-rows: repeat(4, minmax(0, 250px));
   gap: 10px;
   margin: 3.125rem 0 5rem;
+  padding: 0 20px;
+  overflow-x: scroll;
+}
+@media (width >= 768px) {
+  .insta-feed {
+    padding: 0;
+    overflow-x: auto;
+  }
 }
 
 .insta-feed__image-title {
