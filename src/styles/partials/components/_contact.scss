@@ -14,6 +14,7 @@
   display: none;
 
   @include size($md) {
+    display: block;
     position: absolute;
     top: 0;
     right: 0;

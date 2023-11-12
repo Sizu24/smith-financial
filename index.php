@@ -44,7 +44,7 @@
     <div class="hero">
       <div class="hero__video-container">
         <div class="hero__overlay"></div>
-          <video class="hero__video" autoplay muted loop poster="">
+          <video class="hero__video" autoplay muted loop>
             <source src="./src/videos/family.mov" type="video/mp4">
             Your browser does not support the video tag.
           </video>

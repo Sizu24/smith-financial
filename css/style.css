@@ -677,6 +677,7 @@ body {
 }
 @media (width >= 768px) {
   .contact__background {
+    display: block;
     position: absolute;
     top: 0;
     right: 0;
