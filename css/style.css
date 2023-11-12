@@ -543,7 +543,7 @@ body {
 
 .insta-feed {
   display: grid;
-  grid-template-columns: repeat(4, minmax(180px, 1fr));
+  grid-template-columns: repeat(4, minmax(175px, 1fr));
   grid-template-rows: repeat(2, minmax(0, 250px));
   gap: 10px;
   margin: 3.125rem 0 5rem;
@@ -573,10 +573,15 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   color: #f1f1f1;
-  font-size: 0.875rem;
+  font-size: 0.5rem;
   line-height: 1.7;
   opacity: 0;
   transition: all 0.2s ease-in-out;
+}
+@media (width >= 768px) {
+  .insta-feed__image-title {
+    font-size: 0.875rem;
+  }
 }
 
 .insta-feed__image-container {

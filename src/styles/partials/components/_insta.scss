@@ -26,7 +26,7 @@
 
 .insta-feed {
   display: grid;
-  grid-template-columns: repeat(4, minmax(180px, 1fr));
+  grid-template-columns: repeat(4, minmax(175px, 1fr));
   grid-template-rows: repeat(2, minmax(0, 250px));
   gap: 10px;
   margin: rem(50px 0 80px);
@@ -55,10 +55,14 @@
   font-family: $ff-main;
   font-weight: $fw-bold;
   color: $light;
-  font-size: rem(14px);
+  font-size: rem(8px);
   line-height: 1.7;
   opacity: 0;
   transition: all .2s ease-in-out;
+
+  @include size($md) {
+    font-size: rem(14px);
+  }
 }
 
 .insta-feed__image-container {
