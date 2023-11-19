@@ -5,6 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // Check CSRF token
     if (!isset($_POST['token']) || $_POST['token'] !== $_SESSION['token']) {
+        http_response_code(400); // Bad Request
         echo json_encode(["success" => false, "error" => "CSRF token validation failed"]);
         exit;
     }
