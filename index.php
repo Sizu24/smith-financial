@@ -230,23 +230,39 @@
       </div>
       <div class="footer-column">
         <ul class="footer-links">
-          <li class="footer-links__item"><a href="">About</a></li>
-          <li class="footer-links__item"><a href="">Financial Goals</a></li>
-          <li class="footer-links__item"><a href="">Services</a></li>
-          <li class="footer-links__item"><a href="">Knowledge</a></li>
-          <li class="footer-links__item"><a href="">Contact</a></li>
+          <li class="footer-links__item"><a href="#about">About</a></li>
+          <li class="footer-links__item"><a href="#goals">Financial Goals</a></li>
+          <li class="footer-links__item"><a href="#appointment">Book Appointment</a></li>
+          <li class="footer-links__item"><a href="#knowledge">Knowledge</a></li>
+          <li class="footer-links__item"><a href="#contact">Contact</a></li>
         </ul>
       </div>
       <div class="footer-column">
         <ul class="footer-contact">
-          <li class="footer-contact__item">Call</li>
-          <li class="footer-contact__item">IG</li>
-          <li class="footer-contact__item">Email</li>
+          <li class="footer-contact__item"> 
+            <a href="">
+              <img src="src/icons/phone-solid.svg" alt="Icon of a phone" class="footer-contact__item-image">
+            </a>
+          </li>
+
+          <li class="footer-contact__item">
+            <a href="">
+              <img src="src/icons/instagram.svg" alt="Instagram Icon" class="footer-contact__item-image">
+            </a>
+          </li>
+
+          <li class="footer-contact__item">
+            <a href="">
+              <img src="src/icons/envelope-regular.svg" alt="Email Icon" class="footer-contact__item-image">
+            </a>
+          </li>
         </ul>
       </div>
     </div>  
     <div class="footer-legal">
-      <p>&copy 2023 Wealth Builders Empire</p>
+      <p class="footer-legal__item">&copy 2023 Wealth Builders Empire</p>
+      <a class="footer-legal__item" href="/privacy/">Privacy Policy</a>
+      <a class="footer-legal__item" href="/terms-and-conditions/">Terms & Conditions</a>
     </div>
   </footer>
 
