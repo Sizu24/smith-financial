@@ -1,5 +1,13 @@
 <?php
+session_start();
+
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
+
+    // Check CSRF token
+    if (!isset($_POST['token']) || $_POST['token'] !== $_SESSION['token']) {
+        echo json_encode(["success" => false, "error" => "CSRF token validation failed"]);
+        exit;
+    }
     // Collect form data
     $firstName = $_POST["first-name"];
     $lastName = $_POST["last-name"];

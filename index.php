@@ -199,6 +199,9 @@
 
             <label for="message" class="contact-form__label">Message</label>
             <textarea class="contact-form__textbox" name="message" id="message" cols="30" rows="10"></textarea>
+
+            <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
+
             <button class="contact-form__submit">Send</button>
           </form>
         </div>
