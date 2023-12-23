@@ -14,12 +14,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
   <link rel="stylesheet" href="./css/style.css">
   <script src="config.js"></script>
 </head>
 <body>
   <header class="header">
-    <img class="header__logo" src="" alt="">
+    <a class="header__logo-container" href="/">
+      <img class="header__logo" src="./src/images/logo-main.png" alt="Wealth Builder's Empire company logo">
+    </a>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item"><a class="nav__list-link" href="#about">About</a></li>
@@ -64,40 +70,101 @@
       </div>
     </div>
 
-    <div class="why-choose-us" id="about">
-      <div class="why-choose-us-container">
-        <div class="text-media">
-          <div class="text-media__media">
-          <h2 class="why-choose-us__title">Why Choose Us?</h2>
-            <div class="text-media__media-container">
-              <img class="text-media__media-image js-wcu-image selected" src="./src/images/pexels-anna-nekrashevich-6801872.jpg" alt="">
-              <img class="text-media__media-image js-wcu-image" src="./src/images/matthew-reyes--C-jTjc0g7I-unsplash.jpg" alt="">
-              <img class="text-media__media-image js-wcu-image" src="./src/images/people-working-their-office.jpg" alt="">
-              <img class="text-media__media-image js-wcu-image" src="./src/images/close-up-education-economy-objects.jpg" alt="">
+    <div class="why-choose-us js-section" id="about">
+      <div class="why-choose-us__container">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="why-choose-us__slide-container why-choose-us__slide-container--dark">
+                <h2 class="why-choose-us__title why-choose-us__title--light">Why Choose Us?</h2>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+            <div class="why-choose-us__slide-container">
+              <div class="text-media">
+                <div class="text-media__media">
+                  <div class="text-media__media-container">
+                    <img class="text-media__media-image" src="./src/images/pexels-anna-nekrashevich-6801872.jpg" alt="">
+                  </div>
+                </div>
+
+                  <div class="text-media__text">
+                    <div class="text-media__list-item">
+                      <h3 class="text-media__list-title">1</h3>
+                      <p class="text-media__list-body"><strong>Personalized Approach:</strong> I believe in a personalized approach to financial planning. I take the time to get to know you, your aspirations, and your current financial situation. This allows me to tailor a comprehensive financial plan that aligns with your unique needs and goals.</p>
+                    </div>
+                  </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+            <div class="why-choose-us__slide-container">
+
+              <div class="text-media">
+                <div class="text-media__media">
+                  <div class="text-media__media-container">
+                    <img class="text-media__media-image" src="./src/images/matthew-reyes--C-jTjc0g7I-unsplash.jpg" alt="">
+                  </div>  
+                </div>
+
+                <div class="text-media__text">
+                  <div class="text-media__list-item">
+                    <h3 class="text-media__list-title">2</h3>
+                    <p class="text-media__list-body"><strong>Customized Strategies:</strong> There is no one-size-fits-all solution in financial planning. I craft customized strategies that adapt to your evolving needs and circumstances, ensuring that your financial plan remains relevant and effective over time.</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+            <div class="why-choose-us__slide-container">
+
+              <div class="text-media">
+                <div class="text-media__media">
+                  <div class="text-media__media-container">
+                    <img class="text-media__media-image" src="./src/images/people-working-their-office.jpg" alt="">
+                  </div>
+                </div>
+                <div class="text-media__text">
+                  <div class="text-media__list-item">
+                    <h3 class="text-media__list-title">3</h3>
+                    <p class="text-media__list-body"><strong>Peace of Mind:</strong> Navigating the complex world of finance can be overwhelming. Our team is here to provide you with the peace of mind that comes from having a solid financial plan in place. You can rest easy knowing that your financial future is in capable hands.</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+            
+            <div class="swiper-slide">
+            <div class="why-choose-us__slide-container">
+
+              <div class="text-media">
+                <div class="text-media__media">
+                  <div class="text-media__media-container">
+                    <img class="text-media__media-image" src="./src/images/close-up-education-economy-objects.jpg" alt="">
+                  </div>
+                </div>
+                <div class="text-media__text">
+                  <h3 class="text-media__list-title">4</h3>
+                  <p class="text-media__list-body"><strong>More Than Money:</strong> Financial planning isn't just about money; it's about dreams, aspirations, and the life you want to lead. I'm not just a financial advisor; I'm a partner dedicated to helping you design the life you've always envisioned.</p>
+                </div>
+              </div>
+              </div>
             </div>
           </div>
-          <div class="text-media__text">
-            <ul class="text-media__list">
-              <li class="text-media__list-item js-wcu-list selected">
-                <h3 class="text-media__list-title">1</h3>
-                <p class="text-media__list-body"><strong>Personalized Approach:</strong> I believe in a personalized approach to financial planning. I take the time to get to know you, your aspirations, and your current financial situation. This allows me to tailor a comprehensive financial plan that aligns with your unique needs and goals.</p>
-              </li>
-              <li class="text-media__list-item js-wcu-list">
-                <h3 class="text-media__list-title">2</h3>
-                <p class="text-media__list-body"><strong>Customized Strategies:</strong> There is no one-size-fits-all solution in financial planning. I craft customized strategies that adapt to your evolving needs and circumstances, ensuring that your financial plan remains relevant and effective over time.</p>
-              </li>
-              <li class="text-media__list-item js-wcu-list">
-                <h3 class="text-media__list-title">3</h3>
-                <p class="text-media__list-body"><strong>Peace of Mind:</strong> Navigating the complex world of finance can be overwhelming. Our team is here to provide you with the peace of mind that comes from having a solid financial plan in place. You can rest easy knowing that your financial future is in capable hands.</p>
-              </li>
-              <li class="text-media__list-item js-wcu-list">
-                <h3 class="text-media__list-title">4</h3>
-                <p class="text-media__list-body"><strong>More Than Money:</strong> Financial planning isn't just about money; it's about dreams, aspirations, and the life you want to lead. I'm not just a financial advisor; I'm a partner dedicated to helping you design the life you've always envisioned.</p>
-              </li>
-            </ul>
-          </div>
+          <!-- If we need pagination -->
+          <!-- <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div> -->
+          <div class="swiper-pagination"></div>
         </div>
       </div>
+
     </div>
 
     <div class="goals" id="goals">
@@ -109,7 +176,7 @@
 
             <div class="goals-cards__card">
               <div class="goals-cards__media">
-                <img src="./src/icons/dollar-sign-solid.svg" alt="" class="goals-cards__card-image">
+                <img src="./src/icons/shield-halved-solid.svg" alt="" class="goals-cards__card-image">
               </div>
               <div class="goals-cards__content">
                 <h3 class="goals-cards__card-title">Protecting What Matters</h3>
@@ -118,11 +185,11 @@
             </div>
             <div class="goals-cards__card">
               <div class="goals-cards__media">
-                <img src="./src/icons/graduation-cap-solid.svg" alt="" class="goals-cards__card-image">
+                <img src="./src/icons/file-invoice-dollar-solid.svg" alt="" class="goals-cards__card-image">
               </div>
               <div class="goals-cards__content">
                 <h3 class="goals-cards__card-title">Tax Strategy</h3>
-                <p class="goals-cards__card-body">Life is unpredictable, but your finances don't have to be. From insurance to estate planning, let's safeguard your family's future, no matter what life brings.</p>
+                <p class="goals-cards__card-body">From deductions to investments, we unlock the secrets of the tax code and build a proactive strategy that protects your assets and fuels your wealth for years to come.</p>
               </div>
             </div>
             <div class="goals-cards__card">
@@ -131,16 +198,16 @@
               </div>
               <div class="goals-cards__content">
                 <h3 class="goals-cards__card-title">Estate Planning</h3>
-                <p class="goals-cards__card-body">Life is unpredictable, but your finances don't have to be. From insurance to estate planning, let's safeguard your family's future, no matter what life brings.</p>
+                <p class="goals-cards__card-body">Leave a lasting legacy. Our comprehensive estate planning services ensure your values, assets, and love reach the ones who matter most, exactly as you envision.</p>
               </div>
             </div>
             <div class="goals-cards__card">
               <div class="goals-cards__media">
-                <img src="./src/icons/graduation-cap-solid.svg" alt="" class="goals-cards__card-image">
+                <img src="./src/icons/circle-dollar-to-slot-solid.svg" alt="" class="goals-cards__card-image">
               </div>
               <div class="goals-cards__content">
                 <h3 class="goals-cards__card-title">Wealth Strategies</h3>
-                <p class="goals-cards__card-body">Life is unpredictable, but your finances don't have to be. From insurance to estate planning, let's safeguard your family's future, no matter what life brings.</p>
+                <p class="goals-cards__card-body">From investments to insurance, we partner with you to craft a tailor-made plan that minimizes risk, maximizes your earning potential, and secures your financial future for generations to come.</p>
               </div>
             </div>
 
@@ -172,16 +239,6 @@
         <div class="insta-feed js-ig-feed">
 
         </div>
-      </div>
-    </div>
-
-    <div class="booking" id="appointment">
-      <div class="booking-container">
-        <h2 class="booking__title">Ready to Talk Finance? Reserve Your Consultation</h2>
-        <!-- Calendly inline widget begin -->
-        <div class="calendly-inline-widget" data-url="https://calendly.com/mattsmithinc33" style="min-width:320px;height:700px;"></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-        <!-- Calendly inline widget end -->
       </div>
     </div>
 
@@ -221,12 +278,24 @@
       </div>
     </div>
 
+    <div class="booking" id="appointment">
+      <div class="booking-container">
+        <h2 class="booking__title">Ready to Talk Finance? Reserve Your Consultation</h2>
+        <!-- Calendly inline widget begin -->
+        <div class="calendly-inline-widget" data-url="https://calendly.com/mattsmithinc33" style="min-width:320px;height:700px;"></div>
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <!-- Calendly inline widget end -->
+      </div>
+    </div>
+
   </main>
 
   <footer class="footer">
     <div class="footer-content">
       <div class="footer-column">
-        <img src="" alt="" class="footer__logo">
+        <div class="footer__logo-container">
+          <img src="./src/images/logo-main.png" alt="" class="footer__logo">
+        </div>
       </div>
       <div class="footer-column">
         <ul class="footer-links">
@@ -266,6 +335,7 @@
     </div>
   </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script type="module" src="./src/scripts/scripts.js"></script>
 </body>
 </html>

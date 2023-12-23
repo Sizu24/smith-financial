@@ -2,6 +2,7 @@ navToggle();
 whyChooseUsList();
 // getUser();
 getProfileMedia();
+centerWhyChooseUs();
 let posts;
 
 function whyChooseUsList() {
@@ -73,6 +74,73 @@ function navToggle() {
   });
 }
 
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
 
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  freeMode: {
+    enabled: true,
+    sticky: true,
+  },
+  slidesPerView: 1,
+  // centerSlides: true,
+  // centerSlideBounds: true,
+  // centerInsufficientSlides: true,
+  // snapOnRelease: true,
+  spaceBetween: 30,
+  slidesPerView: 1,
+  loop: true,
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  },
 
+  autoplay: {
+    delay: 5000,
+  },
 
+  // mouseWheel: true,
+  // releaseOnEdges: true,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+
+function centerWhyChooseUs() {
+  document.addEventListener('DOMContentLoaded', () => {
+    const sections = document.querySelectorAll('.js-section');
+    let currentSection = null;
+
+    window.addEventListener('scroll', () => {
+      const windowHeight = window.innerHeight;
+      const scrollThreshold = windowHeight * 0.3;
+
+      sections.forEach((section) => {
+        const rect = section.getBoundingClientRect();
+
+        if (rect.top <= windowHeight - scrollThreshold && rect.bottom >= scrollThreshold) {
+          currentSection = section;
+        }
+      });
+
+      if (currentSection) {
+        window.scrollTo({
+          top: currentSection.offsetTop,
+          behavior: 'snap'
+        });
+      }
+    });
+  });
+}

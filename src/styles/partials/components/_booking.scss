@@ -1,5 +1,12 @@
 .booking {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0;
+  min-height: 100vh;
   background-color: $navy-blue;
+  scroll-snap-align: start;
 }
 
 .booking-container {
