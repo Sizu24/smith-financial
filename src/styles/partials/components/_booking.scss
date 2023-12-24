@@ -1,10 +1,7 @@
 .booking {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   padding: 0;
   min-height: 100vh;
+  width: 100%;
   background-color: $navy-blue;
   scroll-snap-align: start;
 }
@@ -12,6 +9,7 @@
 .booking-container {
   padding: 20px;
   text-align: center;
+
   @include size($md) {
     padding: rem(100px);
   }

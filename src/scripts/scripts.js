@@ -76,7 +76,13 @@ function navToggle() {
 
 const swiper = new Swiper('.swiper', {
   // Optional parameters
-  direction: 'vertical',
+  direction: 'horizontal',
+
+  breakpoints: {
+    767: {
+      direction: 'vertical',
+    }
+  },
 
   // If we need pagination
   pagination: {

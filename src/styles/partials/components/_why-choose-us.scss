@@ -1,10 +1,6 @@
 .why-choose-us {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   min-height: 100vh;
-  overflow: auto;
+  width: 100%;
   scroll-snap-align: start;
 
 }
@@ -13,6 +9,7 @@
   padding: 20px;
   text-align: center;
   background-color: #fff;
+
   @include size($md) {
     padding: 0;
   }

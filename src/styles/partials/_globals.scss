@@ -8,11 +8,3 @@ body {
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
-
-.section {
-  min-height: 100vh;
-  scroll-snap-align: start;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
