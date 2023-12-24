@@ -4,15 +4,20 @@
   left: 0;
   right: 0;
   display: flex;
-  padding: rem(0 100px);
+  padding: rem(0 20px);
   justify-content: space-between;
   // background-color: rgba($navy-blue, 0.45);
   z-index: 2;
+
+  @include size($md) {
+    padding: rem(0 100px);
+  }
 }
 
 .header__logo-container {
   display: flex;
   align-items: center;
+  margin-top: 16px;
   max-width: 100px;
   aspect-ratio: 3/1;
   overflow: hidden;
