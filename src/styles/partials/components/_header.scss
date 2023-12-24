@@ -21,6 +21,10 @@
   max-width: 100px;
   aspect-ratio: 3/1;
   overflow: hidden;
+
+  @include size($md) {
+    margin-top: 0;
+  }
 }
 
 .header__logo {
