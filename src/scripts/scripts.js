@@ -43,9 +43,9 @@ function showMedia(posts) {
   for (let i = 0; i < 8; i++) {
     html += `
       <a class="insta-feed__image-container insta-feed__image-container--${i}" href="${posts.data[i].permalink}">
-        <img class="insta-feed__image" src="${posts.data[i].thumbnail_url}" alt="Instagram Post">
+        <img class="insta-feed__image" src="${posts.data[i].thumbnail_url}" alt="Instagram Post" loading="lazy">
         <div class="insta-feed__image-title">
-          <img src="./src/icons/instagram.svg" alt="" class="goals-cards__card-image">
+          <img src="./src/icons/instagram.svg" alt="" class="goals-cards__card-image" loading="lazy">
           <h3>${posts.data[i].caption}</h3>
         </div>
       </a>

@@ -176,7 +176,7 @@
 
             <div class="goals-cards__card">
               <div class="goals-cards__media">
-                <img src="./src/icons/shield-halved-solid.svg" alt="" class="goals-cards__card-image">
+                <img src="./src/icons/shield-halved-solid.svg" alt="" class="goals-cards__card-image" loading="lazy">
               </div>
               <div class="goals-cards__content">
                 <h3 class="goals-cards__card-title">Protecting What Matters</h3>
@@ -185,7 +185,7 @@
             </div>
             <div class="goals-cards__card">
               <div class="goals-cards__media">
-                <img src="./src/icons/file-invoice-dollar-solid.svg" alt="" class="goals-cards__card-image">
+                <img src="./src/icons/file-invoice-dollar-solid.svg" alt="" class="goals-cards__card-image" loading="lazy">
               </div>
               <div class="goals-cards__content">
                 <h3 class="goals-cards__card-title">Tax Strategy</h3>
@@ -194,7 +194,7 @@
             </div>
             <div class="goals-cards__card">
               <div class="goals-cards__media">
-                <img src="./src/icons/house-chimney-solid.svg" alt="" class="goals-cards__card-image">
+                <img src="./src/icons/house-chimney-solid.svg" alt="" class="goals-cards__card-image" loading="lazy">
               </div>
               <div class="goals-cards__content">
                 <h3 class="goals-cards__card-title">Estate Planning</h3>
@@ -203,7 +203,7 @@
             </div>
             <div class="goals-cards__card">
               <div class="goals-cards__media">
-                <img src="./src/icons/circle-dollar-to-slot-solid.svg" alt="" class="goals-cards__card-image">
+                <img src="./src/icons/circle-dollar-to-slot-solid.svg" alt="" class="goals-cards__card-image" loading="lazy">
               </div>
               <div class="goals-cards__content">
                 <h3 class="goals-cards__card-title">Wealth Strategies</h3>
@@ -213,7 +213,7 @@
 
             <div class="goals-cards__card">
             <div class="goals-cards__media">
-              <img src="./src/icons/graduation-cap-solid.svg" alt="" class="goals-cards__card-image">
+              <img src="./src/icons/graduation-cap-solid.svg" alt="" class="goals-cards__card-image" loading="lazy">
               </div>
               <h3 class="goals-cards__card-title">Invest in Future Scholars</h3>
               <p class="goals-cards__card-body">Investing in education is investing in tomorrow. Let's craft a plan to save for your children's education, ensuring they have the tools they need to succeed.</p>
@@ -221,7 +221,7 @@
 
             <div class="goals-cards__card">
             <div class="goals-cards__media">
-              <img src="./src//icons/hand-holding-dollar-solid.svg" alt="" class="goals-cards__card-image">
+              <img src="./src/icons/hand-holding-dollar-solid.svg" alt="" class="goals-cards__card-image" loading="lazy">
               </div>
               <h3 class="goals-cards__card-title">Embrace Retirement Freedom</h3>
               <p class="goals-cards__card-body">Picture a retirement filled with possibilities. Together, we'll design a strategy that ensures your golden years are worry-free. Let's build the nest egg you deserve.</p>
@@ -243,7 +243,7 @@
     </div>
 
     <div class="contact" id="contact">
-      <img class="contact__background" src="./src/images/contact-image.svg" alt="">
+      <img class="contact__background" src="./src/images/contact-image.svg" alt="background art" loading="lazy">
       <div class="contact-container">
         <div class="contact-form-container">
           <form method="post" action="/contact-success/" class="contact-form">
@@ -294,7 +294,7 @@
     <div class="footer-content">
       <div class="footer-column">
         <div class="footer__logo-container">
-          <img src="./src/images/logo-main.png" alt="" class="footer__logo">
+          <img src="./src/images/logo-main.png" alt="" class="footer__logo" loading="lazy">
         </div>
       </div>
       <div class="footer-column">
