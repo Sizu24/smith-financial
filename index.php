@@ -24,7 +24,7 @@
 <body>
   <header class="header">
     <a class="header__logo-container" href="/">
-      <img class="header__logo" src="./src/images/logo-main.png" alt="Wealth Builder's Empire company logo">
+      <img class="header__logo" src="./src/images/logo-main.png" alt="Wealth Builder's Empire company logo" loading="lazy">
     </a>
     <nav class="nav">
       <ul class="nav__list">
