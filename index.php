@@ -71,17 +71,18 @@
     </div>
 
     <div class="why-choose-us js-section" id="about">
+      <h2 class="why-choose-us__title">Why Choose Us?</h2>
       <div class="why-choose-us__container">
         <!-- Slider main container -->
         <div class="swiper">
           <!-- Additional required wrapper -->
           <div class="swiper-wrapper">
             <!-- Slides -->
-            <div class="swiper-slide">
+            <!-- <div class="swiper-slide">
               <div class="why-choose-us__slide-container why-choose-us__slide-container--dark">
                 <h2 class="why-choose-us__title why-choose-us__title--light">Why Choose Us?</h2>
               </div>
-            </div>
+            </div> -->
 
             <div class="swiper-slide">
             <div class="why-choose-us__slide-container">

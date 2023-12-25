@@ -9,9 +9,13 @@
 
 .insta__title {
   font-family: $ff-main;
-  font-weight: $fw-bold;
-  font-size: rem(48px);
+  font-weight: $fw-med;
+  font-size: rem(24px);
   color: $dark-gray;
+
+  @include size($lg) {
+    font-size: rem(48px);
+  }
 }
 
 .insta__subhead {

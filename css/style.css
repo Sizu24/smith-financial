@@ -42,6 +42,11 @@ body {
   aspect-ratio: 3/1;
   overflow: hidden;
 }
+@media (width >= 768px) {
+  .header__logo-container {
+    margin-top: 0;
+  }
+}
 
 .header__logo {
   max-width: 100px;
@@ -353,6 +358,7 @@ body {
   min-height: 100vh;
   width: 100%;
   scroll-snap-align: start;
+  text-align: center;
 }
 
 .why-choose-us__container {
@@ -383,7 +389,7 @@ body {
 
 .why-choose-us__title {
   font-family: "Lato", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1.5rem;
   color: #001F3F;
 }
@@ -494,11 +500,15 @@ body {
 }
 
 .goals__title {
-  padding-bottom: 1.25rem;
   font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-size: 3rem;
+  font-weight: 500;
+  font-size: 1.5rem;
   color: #fff;
+}
+@media (width >= 1024px) {
+  .goals__title {
+    font-size: 3rem;
+  }
 }
 
 @media (width >= 768px) {
@@ -552,9 +562,14 @@ body {
 
 .insta__title {
   font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-size: 3rem;
+  font-weight: 500;
+  font-size: 1.5rem;
   color: #545454;
+}
+@media (width >= 1024px) {
+  .insta__title {
+    font-size: 3rem;
+  }
 }
 
 .insta__subhead {
@@ -748,8 +763,8 @@ body {
 .contact__title {
   padding-bottom: 2.5rem;
   font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-size: 2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
   color: #f1f1f1;
   text-align: center;
 }
@@ -854,9 +869,14 @@ body {
 
 .booking__title {
   font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-size: 3rem;
+  font-weight: 500;
+  font-size: 1.5rem;
   color: #f1f1f1;
+}
+@media (width >= 1024px) {
+  .booking__title {
+    font-size: 3rem;
+  }
 }
 
 .footer {

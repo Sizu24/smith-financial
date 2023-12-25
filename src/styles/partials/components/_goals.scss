@@ -15,11 +15,14 @@
 }
 
 .goals__title {
-  padding-bottom: rem(20px);
   font-family: $ff-main;
-  font-weight: $fw-light;
-  font-size: rem(48px);
+  font-weight: $fw-med;
+  font-size: rem(24px);
   color: #fff;
+
+  @include size($lg) {
+    font-size: rem(48px);
+  }
 }
 
 .goals-cards {
