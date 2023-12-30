@@ -244,7 +244,7 @@
     </div>
 
     <div class="contact" id="contact">
-      <img class="contact__background" src="./src/images/contact-image.svg" alt="background art" loading="lazy">
+      <img class="contact__background" src="./src/images/contact-image.jpg" alt="background art" loading="lazy">
       <div class="contact-container">
         <div class="contact-form-container">
           <form method="post" action="/contact-success/" class="contact-form">
@@ -284,7 +284,6 @@
         <h2 class="booking__title">Ready to Talk Finance? Reserve Your Consultation</h2>
         <!-- Calendly inline widget begin -->
         <div class="calendly-inline-widget" data-url="https://calendly.com/mattsmithinc33" style="min-width:320px;height:700px;"></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
         <!-- Calendly inline widget end -->
       </div>
     </div>
@@ -336,7 +335,8 @@
     </div>
   </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
   <script type="module" src="./src/scripts/scripts.js"></script>
 </body>
 </html>
