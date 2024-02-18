@@ -714,13 +714,6 @@ body {
   background-color: #398BAB;
   scroll-snap-align: start;
 }
-@media (width >= 768px) {
-  .contact {
-    max-width: 1440px;
-    background-color: transparent;
-  }
-}
-
 .contact__background {
   display: none;
 }
@@ -740,9 +733,11 @@ body {
   display: flex;
   flex-direction: column-reverse;
   align-items: space-between;
-  padding: 5%;
+  margin: 0 auto;
+  padding: 12%;
   text-align: center;
   border-radius: 0.9375rem;
+  max-width: 90rem;
   gap: 50px;
 }
 @media (width >= 768px) {
@@ -925,6 +920,9 @@ body {
 .footer-links__item {
   margin-bottom: 20px;
 }
+.footer-links__item:hover a {
+  color: #398BAB;
+}
 
 .footer-links__item a {
   font-family: "Lato", sans-serif;
@@ -932,6 +930,7 @@ body {
   font-size: 1.125rem;
   color: #252525;
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
 .footer-contact {
