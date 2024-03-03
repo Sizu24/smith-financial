@@ -473,7 +473,7 @@ body {
 
 .text-media__media-container {
   width: 100%;
-  max-height: 31.25rem;
+  aspect-ratio: 2/3;
   overflow: hidden;
   box-shadow: 5px 5px 10px rgba(84, 84, 84, 0.25);
 }

@@ -125,7 +125,7 @@
 
 .text-media__media-container {
   width: 100%;
-  max-height: rem(500px);
+  aspect-ratio: 2/3;
   overflow: hidden;
   box-shadow: 5px 5px 10px rgba($dark-gray, 0.25);
 
