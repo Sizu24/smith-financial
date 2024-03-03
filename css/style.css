@@ -459,15 +459,15 @@ body {
   }
 }
 .text-media__media {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   width: 100%;
-  height: 500px;
 }
 @media (width > 1024px) {
   .text-media__media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 50%;
+    height: 500px;
   }
 }
 
