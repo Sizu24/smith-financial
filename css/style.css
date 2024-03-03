@@ -1167,7 +1167,7 @@ body {
   padding: 1.25rem 0.625rem;
   border: none;
 }
-@media (width > 768px) {
+@media (width > 1024px) {
   .newsletter-form__input {
     width: 360px;
     border-radius: 5px 0 0 5px;
@@ -1187,7 +1187,7 @@ body {
   background-color: #398bab;
   border: 1px solid #398bab;
 }
-@media (width > 768px) {
+@media (width > 1024px) {
   .newsletter-form__button {
     padding: 1.5625rem 3.125rem;
     border-radius: 0 5px 5px 0;

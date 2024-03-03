@@ -75,7 +75,7 @@
   padding: rem(20px 10px);
   border: none;
 
-  @include size($md) {
+  @include size($lg) {
     width: 360px;
     border-radius: 5px 0 0 5px;
   }
@@ -95,7 +95,7 @@
     border: 1px solid $ocean-blue;
   }
 
-  @include size($md) {
+  @include size($lg) {
     padding: rem(25px 50px);
     border-radius: 0 5px 5px 0;
   }
