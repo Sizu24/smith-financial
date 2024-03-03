@@ -6,8 +6,12 @@
   align-items: center;
   justify-content: center;
   padding: rem(150px 0);
-  gap: 50px;
+  gap: 25px;
   overflow: hidden;
+
+  @include size($md) {
+    gap: 50px;
+  }
 }
 
 .newsletter::after {
@@ -70,19 +74,18 @@
   width: 250px;
   padding: rem(20px 10px);
   border: none;
-  border-radius: 5px 0 0 5px;
 
   @include size($md) {
     width: 360px;
+    border-radius: 5px 0 0 5px;
   }
 }
 
 .newsletter-form__button {
-  padding: rem(25px 50px);
+  padding: rem(25px);
   background-color: $navy-blue;
   border: 1px solid $navy-blue;
   color: $light;
-  border-radius: 0 5px 5px 0;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 
@@ -90,5 +93,10 @@
     color: $light;
     background-color: $ocean-blue;
     border: 1px solid $ocean-blue;
+  }
+
+  @include size($md) {
+    padding: rem(25px 50px);
+    border-radius: 0 5px 5px 0;
   }
 }

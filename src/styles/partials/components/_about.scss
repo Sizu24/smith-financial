@@ -7,9 +7,13 @@
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  padding: rem(80px);
+  padding: rem(80px 20px);
   text-align: center;
   background-color: $light;
+
+  @include size($lg) {
+    padding: rem(80px);
+  }
 }
 
 .about-content {
@@ -43,7 +47,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: rem(30px);
+  padding: rem(20px);
   text-align: center;
   line-height: 1.9;
   background-color: #f5f5f5;
