@@ -267,11 +267,14 @@
 
     <div class="about" id="about">
       <div class="about-container">
-        <h2 class="about__title">Meet Matt Smith</h2>
         <div class="about-content">
-          <!-- <div class="about__media">
-            <img src="./src/images/matthew-smith.jpg" alt="Matthew Smith, Wealth Builders Empire" class="about__media-image" loading="lazy">
-          </div> -->
+          <div class="about__media">
+          <h2 class="about__title">Meet Matt Smith</h2>
+            <div class="about__image-container">
+              <img class="about__image"src="./src/images/profile-pic.jpeg" alt="Matthew Smith, Wealth Builders Empire" class="about__media-image" loading="lazy">
+            </div>
+          </div>
+
           <div class="about__text">
             <p class="about__body">I'm Matthew Smith, a financial advisor with a passion for helping people achieve their financial dreams. I believe that everyone deserves a secure financial future, and I'm dedicated to providing the guidance and support you need to make that a reality.</p>
             <p class="about__body">I have over 20 years of experience in the financial industry, and I've helped countless individuals and families build a solid financial foundation, grow their wealth, and plan for a comfortable retirement. I'm committed to staying up-to-date on the latest financial trends and strategies, so you can trust that you're getting the most relevant and effective advice.</p>
