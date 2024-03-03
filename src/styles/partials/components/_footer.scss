@@ -1,19 +1,23 @@
 .footer {
-  padding: 0;
   width: 100%;
   background-color: #fff;
-  scroll-snap-align: start;
+
+  @include size($md) {
+    padding: 0;
+  }
 }
 
 .footer-content {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
   padding-top: rem(50px);
 
-  @include size($md) {
+  @include size($sm) {
+    align-items: center;
     flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
 }
 
@@ -60,11 +64,12 @@
 }
 
 .footer-contact {
+  display: flex;
   padding: 0 20px;
   list-style: none;
+  gap: rem(20px);
 
   @include size($md) {
-    display: flex;
     gap: 20px;
   }
 }

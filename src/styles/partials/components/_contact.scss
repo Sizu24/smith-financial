@@ -2,31 +2,28 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-color: $ocean-blue;
-  scroll-snap-align: start;
-
-  @include size($md) {
-  }
+  background-image: url("../src/images/AdobeStock_679323640 Large.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.contact__background {
-  display: none;
-
-  @include size($md) {
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: -1;
-    height: auto;
-    width: 100vw;
-  }
+.contact::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($dark, 0.6);
 }
 
 .contact-container {
+  position: relative;
   display: flex;
-  flex-direction: column-reverse;
-  align-items: space-between;
+  flex-direction: column;
+  justify-content: center;
   margin: 0 auto;
   padding: 12%;
   // background: rgb(49,72,97);
@@ -35,13 +32,23 @@
   border-radius: rem(15px);
   max-width: rem(1440px);
   gap: 50px;
+  z-index: 1;
 
   @include size($md) {
-    flex-direction: row;
   }
 }
 
+.contact-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: rem(0 25px 25px 25px);
 
   @include size($md) {
@@ -84,15 +91,17 @@
 .contact-form {
   display: flex;
   justify-content: space-between;
+  width: 100%;
   padding: rem(34px 34px 34px 20px);
   flex-direction: column;
   background-color: #fff;
-  border-radius: rem(20px);
+  border-radius: rem(5px);
   box-shadow: 5px 5px 15px rgba($color: #000000, $alpha: 0.25);
 
   @include size($md) {
     align-items: flex-start;
     padding: rem(50px);
+    width: 800px;
   }
 }
 
