@@ -4,9 +4,13 @@
   min-height: 100vh;
   background-image: url("../src/images/AdobeStock_679323640 Large.jpeg");
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-repeat: no-repeat;
   background-size: cover;
+
+  @include size($md) {
+    background-attachment: fixed;
+  }
 }
 
 .contact::after {

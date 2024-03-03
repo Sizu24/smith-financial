@@ -6,8 +6,12 @@
   min-height: 100vh;
   text-align: center;
   background: url("../src/images/AdobeStock_479449130 Large.jpeg") no-repeat
-    center center/cover;
-  background-attachment: fixed;
+    center cover;
+  background-attachment: scroll;
+
+  @include size($md) {
+    background-attachment: fixed;
+  }
 }
 
 .goals::after {

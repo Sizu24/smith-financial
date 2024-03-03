@@ -7,7 +7,7 @@
   justify-content: center;
   padding: rem(200px 0);
   background-image: url("../src/images/AdobeStock_316760692 Large.jpeg");
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -16,6 +16,7 @@
 
   @include size($md) {
     flex-direction: row;
+    background-attachment: fixed;
   }
 }
 
