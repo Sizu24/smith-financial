@@ -3,15 +3,12 @@
   text-align: center;
   padding: 0;
   width: 100%;
-  min-height: 100vh;
+  min-height: 900px;
   text-align: center;
-  background: url("../src/images/AdobeStock_479449130 Large.jpeg") no-repeat
-    center cover;
-  background-attachment: scroll;
-
-  @include size($md) {
-    background-attachment: fixed;
-  }
+  background: url("../src/images/AdobeStock_479449130 Large.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .goals::after {
