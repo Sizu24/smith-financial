@@ -123,7 +123,7 @@
             </div>
             <div class="text-media__text">
               <div class="text-media__list-item">
-                <h3 class="text-media__list-title">Peace of Mind:</h3>
+                <h3 class="text-media__list-title">Peace of Mind</h3>
                 <p class="text-media__list-body">Navigating the complex world of finance can be overwhelming.</p>
                 <p class="text-media__list-body">Our team is here to provide you with the peace of mind that comes from having a solid financial plan in place. You can rest easy knowing that your financial future is in capable hands.</p>
               </div>
@@ -139,7 +139,7 @@
               </div>
             </div>
             <div class="text-media__text">
-              <h3 class="text-media__list-title text-media__list-title--light">More Than Money:</h3> 
+              <h3 class="text-media__list-title text-media__list-title--light">More Than Money</h3> 
               <p class="text-media__list-body text-media__list-body--light">Financial planning isn't just about money; it's about dreams, aspirations, and the life you want to lead.</p>
               <p class="text-media__list-body text-media__list-body--light">I'm not just a financial advisor; I'm a partner dedicated to helping you design the life you've always envisioned.</p>
             </div>
