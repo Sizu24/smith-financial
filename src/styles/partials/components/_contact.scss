@@ -22,8 +22,11 @@
   background-image: url("../src/images/AdobeStock_679323640 Large.jpeg");
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   z-index: -1;
+
+  @include size($md) {
+    background-attachment: fixed;
+  }
 }
 
 .contact-container {

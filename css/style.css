@@ -567,8 +567,12 @@ body {
   background: url("../src/images/AdobeStock_479449130 Large.jpeg");
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   z-index: -1;
+}
+@media (width > 768px) {
+  .goals__background {
+    background-attachment: fixed;
+  }
 }
 
 .goals-container {
@@ -815,8 +819,12 @@ body {
   background-image: url("../src/images/AdobeStock_679323640 Large.jpeg");
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   z-index: -1;
+}
+@media (width > 768px) {
+  .contact__background {
+    background-attachment: fixed;
+  }
 }
 
 .contact-container {
@@ -1003,8 +1011,12 @@ body {
   background-image: url("../src/images/AdobeStock_316760692 Large.jpeg");
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   z-index: -1;
+}
+@media (width > 768px) {
+  .newsletter__background {
+    background-attachment: fixed;
+  }
 }
 
 .newsletter-content {
