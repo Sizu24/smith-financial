@@ -545,12 +545,8 @@ body {
   text-align: center;
   padding: 0;
   width: 100%;
-  min-height: 900px;
+  min-height: 100vh;
   text-align: center;
-  background: url("../src/images/AdobeStock_479449130 Large.jpeg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .goals::after {
@@ -561,6 +557,18 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(37, 37, 37, 0.7);
+}
+
+.goals__background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../src/images/AdobeStock_479449130 Large.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
 }
 
 .goals-container {
@@ -786,12 +794,7 @@ body {
 .contact {
   position: relative;
   width: 100%;
-  min-height: 900px;
-  background-image: url("../src/images/AdobeStock_679323640 Large.jpeg");
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  min-height: 100vh;
 }
 
 .contact::after {
@@ -802,6 +805,18 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(37, 37, 37, 0.6);
+}
+
+.contact__background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../src/images/AdobeStock_679323640 Large.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
 }
 
 .contact-container {
@@ -965,11 +980,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 12.5rem 0;
-  background-image: url("../src/images/AdobeStock_316760692 Large.jpeg");
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   gap: 50px;
   overflow: hidden;
 }
@@ -983,6 +993,18 @@ body {
   height: 100%;
   background-color: rgba(37, 37, 37, 0.7);
   z-index: 0;
+}
+
+.newsletter__background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../src/images/AdobeStock_316760692 Large.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
 }
 
 .newsletter-content {

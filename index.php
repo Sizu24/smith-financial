@@ -150,6 +150,7 @@
     </div>
 
     <div class="goals" id="goals">
+      <div class="goals__background"></div>
       <div class="goals-container">
         <h2 class="goals__title">Helping You Achieve Your Financial Goals</h2>
         <div class="goals-content">
@@ -225,6 +226,7 @@
     </div>
 
     <div class="contact" id="contact">
+      <div class="contact__background"></div>
       <div class="contact-container">
         <div class="contact-form-container">
           <h2 class="contact__title">We'd love to hear from you!</h2>
@@ -269,6 +271,7 @@
     </div>
 
     <div class="newsletter">
+      <div class=newsletter__background></div>
       <newsletter class="content">
         <h2 class="newsletter__title">Sign up for free wealth knowledge!</h2>
       </newsletter>
