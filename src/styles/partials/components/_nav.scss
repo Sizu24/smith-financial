@@ -14,7 +14,7 @@
 
 .nav__list-item {
   cursor: pointer;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
   &:hover {
     color: $navy-blue;
@@ -29,7 +29,7 @@
   color: $light;
   text-decoration: none;
   cursor: pointer;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
   &:link {
     color: $light;
@@ -85,7 +85,7 @@
   height: 1px;
   border: none;
   background-color: $dark-gray;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   &:before {
     content: "";
@@ -95,7 +95,7 @@
     width: 100%;
     height: 1px;
     background-color: $dark-gray;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
 
   &:after {
@@ -106,7 +106,7 @@
     width: 100%;
     height: 1px;
     background-color: $dark-gray;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
 }
 
@@ -139,17 +139,17 @@
   transform: translateX(200%);
   background-color: $navy-blue;
   list-style: none;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-mobile__list.show {
   transform: translateX(0%);
 }
 
-.nav-mobile__list-item { 
+.nav-mobile__list-item {
   position: relative;
   padding: 20px 40px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
     background-color: $light;

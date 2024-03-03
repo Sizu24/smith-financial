@@ -3,6 +3,7 @@ whyChooseUsList();
 // getUser();
 getProfileMedia();
 centerWhyChooseUs();
+scrollAnimation();
 let posts;
 
 function whyChooseUsList() {
@@ -155,6 +156,35 @@ function centerWhyChooseUs() {
           behavior: "snap",
         });
       }
+    });
+  });
+}
+
+// Text media animation to scroll into view from sides
+function scrollAnimation() {
+  const elements = document.querySelectorAll(".js-text-media-animation");
+  if (elements.length === 0) return;
+
+  // Check if element is in viewport
+  function isInViewport(element) {
+    var rect = element.getBoundingClientRect();
+    var offset = 500; // Offset to start animation before element is in view
+    return (
+      rect.top >= 0 &&
+      rect.left >= 0 &&
+      rect.bottom - offset <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("scroll", () => {
+      elements.forEach((element) => {
+        if (isInViewport(element)) {
+          element.classList.add("animate");
+        }
+      });
     });
   });
 }

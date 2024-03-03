@@ -4,7 +4,6 @@
   height: 100vh;
   overflow: hidden;
   padding: 0;
-  scroll-snap-align: start;
 
   @include size($md) {
     padding: 0;

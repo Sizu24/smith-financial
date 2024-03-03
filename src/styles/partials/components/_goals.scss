@@ -1,17 +1,31 @@
 .goals {
+  position: relative;
   text-align: center;
   padding: 0;
   width: 100%;
   min-height: 100vh;
   text-align: center;
-  background-color: $ocean-blue;
-  scroll-snap-align: start;
+  background: url("../src/images/AdobeStock_479449130 Large.jpeg") no-repeat
+    center center/cover;
+  background-attachment: fixed;
+}
+
+.goals::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba($dark, 0.7);
 }
 
 .goals-container {
+  position: relative;
   margin: 0 auto;
   padding: 5%;
   max-width: 1440px;
+  z-index: 1;
 }
 
 .goals__title {
@@ -26,7 +40,6 @@
 }
 
 .goals-cards {
-  
   @include size($md) {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -36,9 +49,7 @@
 
 .goals-cards__card {
   padding: rem(50px 30px);
-  background-color: $ocean-blue;
   border-radius: rem(20px);
-  box-shadow: 5px 5px 10px rgba($ocean-blue, .25);
 }
 
 .goals-cards__media {

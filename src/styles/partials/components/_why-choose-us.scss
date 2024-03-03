@@ -1,21 +1,19 @@
 .why-choose-us {
+  padding: rem(80px 0 0 0);
   min-height: 100vh;
   width: 100%;
-  scroll-snap-align: start;
   text-align: center;
 }
 
 .why-choose-us__container {
-  padding: 20px;
   text-align: center;
-  background-color: #fff;
 
   @include size($md) {
     padding: 0;
   }
 }
 
-.why-choose-us__slide-container {
+.why-choose-us__section-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,8 +22,7 @@
   background-color: #fff;
 }
 
-.why-choose-us__slide-container--dark {
-  height: 100vh;
+.why-choose-us__section-container--dark {
   background-color: $navy-blue;
   color: #fff;
 }
@@ -50,14 +47,67 @@
   max-width: 1440px;
   gap: rem(50px);
   flex-direction: column;
-  background-color: #fff;
+  padding-bottom: rem(50px);
+  opacity: 0;
+  visibility: hidden;
 
   @include size($lg) {
     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: auto auto;
-    padding: rem(0 100px);
+    padding: rem(100px);
+  }
+}
+
+.text-media.flipped {
+  @include size($lg) {
+    flex-direction: row-reverse;
+  }
+}
+
+// This is to show text-media since it's hidden by default
+.text-media.animate {
+  opacity: 1;
+  visibility: visible;
+}
+
+.text-media.from-left.animate {
+  animation: slide-in-left 0.9s ease-out, fade-in 1.7s ease-out;
+}
+
+.text-media.from-right.animate {
+  animation: slide-in-right 0.9s ease-out, fade-in 1.7s ease-out;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -66,6 +116,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  height: 500px;
 
   @include size($lg) {
     width: 50%;
@@ -73,12 +124,16 @@
 }
 
 .text-media__media-container {
-  max-width: rem(400px);
   width: 100%;
-  max-height: 500px;
+  max-height: rem(500px);
   overflow: hidden;
-  border-radius: rem(20px);
   box-shadow: 5px 5px 10px rgba($dark-gray, 0.25);
+
+  @include size($lg) {
+    border-radius: rem(5px);
+    aspect-ratio: 1/2;
+    // max-height: rem(700px);
+  }
 }
 
 .text-media__media-image {
@@ -89,11 +144,12 @@
 }
 
 .text-media__text {
-  width: 100%;
+  padding: 0 20px;
   font-family: $ff-main;
   text-align: left;
 
   @include size($lg) {
+    padding: 0;
     width: 50%;
   }
 }
@@ -108,17 +164,28 @@
   cursor: pointer;
 }
 
-
 .text-media__list-title {
-  margin-top: 0;
+  margin: rem(0 0 10px 0);
   font-size: rem(32px);
-  font-weight: $fw-light;
+  font-weight: $fw-bold;
   color: $dark-gray;
 }
 
+.text-media__list-title--light {
+  color: #fff;
+}
+
 .text-media__list-body {
-  font-size: rem(24px);
+  font-size: rem(16px);
   font-weight: $fw-light;
   color: $dark-gray;
   line-height: 1.4;
+
+  @include size($lg) {
+    font-size: rem(24px);
+  }
+}
+
+.text-media__list-body--light {
+  color: #fff;
 }
