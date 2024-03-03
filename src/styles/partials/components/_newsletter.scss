@@ -70,9 +70,11 @@
 .newsletter-form__input {
   width: 250px;
   padding: rem(20px 10px);
+  border: none;
+  border-radius: 5px 0 0 5px;
 
   @include size($md) {
-    width: 300px;
+    width: 360px;
   }
 }
 
@@ -81,4 +83,13 @@
   background-color: $navy-blue;
   border: 1px solid $navy-blue;
   color: $light;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: $light;
+    background-color: $ocean-blue;
+    border: 1px solid $ocean-blue;
+  }
 }
