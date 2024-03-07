@@ -6,16 +6,15 @@
 }
 
 .booking-container {
-  padding: 20px;
   text-align: center;
 
   @include size($md) {
-    padding: rem(100px);
+    margin: rem(100px 0 0 0);
   }
 }
 
 .booking__title {
-  margin: 150px 0 0 0;
+  margin: rem(40px 0 0 0);
   font-family: $ff-main;
   font-weight: $fw-med;
   font-size: rem(24px);

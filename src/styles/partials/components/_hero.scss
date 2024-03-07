@@ -27,9 +27,13 @@
 
 .hero__content {
   position: absolute;
-  top: 30%;
+  top: 15%;
   padding: 20px;
   z-index: 1;
+
+  @include size($md) {
+    top: 30%;
+  }
 
   @include size($md) {
     top: 25%;
