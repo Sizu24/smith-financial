@@ -160,6 +160,7 @@ function centerWhyChooseUs() {
   });
 }
 
+// Text media animation to scroll into view from sides
 function scrollAnimation() {
   const elements = document.querySelectorAll(".js-text-media-animation");
   if (elements.length === 0) return;
@@ -168,23 +169,12 @@ function scrollAnimation() {
   function isInViewport(element) {
     var rect = element.getBoundingClientRect();
     var offset = 500; // Offset to start animation before element is in view
-    var viewportWidth =
-      window.innerWidth || document.documentElement.clientWidth;
-    var viewportHeight =
-      window.innerHeight || document.documentElement.clientHeight;
-
-    // Check if the device is in landscape mode and adjust viewport dimensions accordingly
-    if (window.matchMedia("(orientation: landscape)").matches) {
-      viewportWidth = viewportHeight;
-      viewportHeight =
-        window.innerWidth || document.documentElement.clientWidth;
-    }
-
     return (
       rect.top >= 0 &&
       rect.left >= 0 &&
-      rect.bottom - offset <= viewportHeight &&
-      rect.right <= viewportWidth
+      rect.bottom - offset <=
+        (window.innerHeight || document.documentElement.clientHeight) &&
+      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
     );
   }
 
