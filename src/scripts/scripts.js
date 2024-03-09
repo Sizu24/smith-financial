@@ -168,7 +168,7 @@ function scrollAnimation() {
   // Check if element is in viewport
   function isInViewport(element) {
     var rect = element.getBoundingClientRect();
-    var offset = 500; // Offset to start animation before element is in view
+    var offset = window.innerHeight * 0.2; // Offset is now 20% of the viewport height
     return (
       rect.top >= 0 &&
       rect.left >= 0 &&
