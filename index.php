@@ -11,6 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="nofollow">
   <meta name="description" content="Discover financial success with Wealth Builders Empire, your trusted financial advisor in Reno and Sparks Nevada. I, Matthew Smith offer expert guidance for wealth creation, investment strategies, retirement planning, and more. Let me help you build your financial empire today.">
+  <meta name="keywords" content="financial advisor, Reno financial advisors, Sparks financial advisors, wealth management, financial advisors near me, financial advisors Reno NV, investment strategies, retirement planning, financial planning, financial advisor Reno, financial advisor Sparks, financial advisor Nevada, financial advisor near me, financial advisor near Reno, financial advisor near Sparks, financial advisor near Nevada, financial advisor near me, financial advisor near me Reno, financial advisor near me Sparks, financial advisor near me Nevada, financial advisor near me, financial advisor near me Reno, financial advisor near me Sparks, financial advisor near me Nevada">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
@@ -171,7 +172,7 @@
               </div>
               <div class="goals-cards__content">
                 <h3 class="goals-cards__card-title">Tax Strategy</h3>
-                <p class="goals-cards__card-body">From deductions to investments, we unlock the secrets of the tax code and build a proactive strategy that protects your assets and fuels your wealth for years to come.</p>
+                <p class="goals-cards__card-body">From deductions to investments, I unlock the secrets of the tax code and build a proactive strategy that protects your assets and fuels your wealth for years to come.</p>
               </div>
             </div>
             <div class="goals-cards__card">
@@ -189,7 +190,7 @@
               </div>
               <div class="goals-cards__content">
                 <h3 class="goals-cards__card-title">Wealth Strategies</h3>
-                <p class="goals-cards__card-body">From investments to insurance, we partner with you to craft a tailor-made plan that minimizes risk, maximizes your earning potential, and secures your financial future for generations to come.</p>
+                <p class="goals-cards__card-body">From investments to insurance, I partner with you to craft a tailor-made plan that minimizes risk, maximizes your earning potential, and secures your financial future for generations to come.</p>
               </div>
             </div>
 
@@ -228,7 +229,7 @@
       <div class="contact__background"></div>
       <div class="contact-container">
         <div class="contact-form-container">
-          <h2 class="contact__title">We'd love to hear from you!</h2>
+          <h2 class="contact__title">I'd love to hear from you!</h2>
           <!-- <ul class="contact__body">
             <li class="contact__body-item">Want to make your money work smarter to reach your financial goals.</li>
             <li class="contact__body-item">Need clarity on your goals and want a roadmap to achieve them.</li>
