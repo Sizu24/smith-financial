@@ -317,19 +317,19 @@
       <div class="footer-column">
         <ul class="footer-contact">
           <li class="footer-contact__item"> 
-            <a href="">
+            <a href="tel:7753543932">
               <img src="src/icons/phone-solid.svg" alt="Icon of a phone" class="footer-contact__item-image">
             </a>
           </li>
 
           <li class="footer-contact__item">
-            <a href="">
+            <a href="mailto:mattsmithinc33@gmail.com">
               <img src="src/icons/instagram.svg" alt="Instagram Icon" class="footer-contact__item-image">
             </a>
           </li>
 
           <li class="footer-contact__item">
-            <a href="">
+            <a href="https://www.instagram.com/forbidden_knowledge33/">
               <img src="src/icons/envelope-regular.svg" alt="Email Icon" class="footer-contact__item-image">
             </a>
           </li>
