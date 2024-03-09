@@ -2,10 +2,6 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
-
-  @include size($md) {
-    padding-bottom: rem(200px);
-  }
 }
 
 .contact::after {
