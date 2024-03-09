@@ -76,6 +76,7 @@
   text-align: center;
 
   @include size($md) {
+    margin-top: 0;
     text-align: left;
     font-size: rem(48px);
   }
