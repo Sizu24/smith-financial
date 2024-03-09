@@ -329,7 +329,7 @@
           </li>
 
           <li class="footer-contact__item">
-            <a href="https://www.instagram.com/forbidden_knowledge33/">
+            <a href="https://www.instagram.com/forbidden_knowledge33/" target="_blank">
               <img src="src/icons/instagram.svg" alt="Instagram Icon" class="footer-contact__item-image">
             </a>
           </li>
