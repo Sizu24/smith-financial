@@ -337,7 +337,7 @@
       </div>
     </div>  
     <div class="footer-legal">
-      <p class="footer-legal__item">&copy 2023 Wealth Builders Empire</p>
+      <p class="footer-legal__item">&copy; <?php echo date('Y'); ?> Wealth Builders Empire</p>
       <a class="footer-legal__item" href="/privacy/" target="_blank">Privacy Policy</a>
       <a class="footer-legal__item" href="/terms-and-conditions/" target="_blank">Terms & Conditions</a>
     </div>
