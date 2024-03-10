@@ -338,8 +338,8 @@
     </div>  
     <div class="footer-legal">
       <p class="footer-legal__item">&copy 2023 Wealth Builders Empire</p>
-      <a class="footer-legal__item" href="/privacy/">Privacy Policy</a>
-      <a class="footer-legal__item" href="/terms-and-conditions/">Terms & Conditions</a>
+      <a class="footer-legal__item" href="/privacy/" target="_blank">Privacy Policy</a>
+      <a class="footer-legal__item" href="/terms-and-conditions/" target="_blank">Terms & Conditions</a>
     </div>
   </footer>
 
