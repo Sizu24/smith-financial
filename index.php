@@ -278,7 +278,7 @@
           </div>
 
           <div class="about__text">
-            <p class="about__body">I'm Matthew Smith, a financial advisor with a passion for helping people achieve their financial dreams. I believe that everyone deserves a secure financial future, and I'm dedicated to providing the guidance and support you need to make that a reality.</p>
+            <p class="about__body">I'm Matthew Smith, a financial advisor in Reno NV with a passion for helping people achieve their financial dreams. I believe that everyone deserves a secure financial future, and I'm dedicated to providing the guidance and support you need to make that a reality.</p>
             <p class="about__body">I am a professional in the financial industry, and I've helped countless individuals and families build a solid financial foundation, grow their wealth, and plan for a comfortable retirement. I'm committed to staying up-to-date on the latest financial trends and strategies, so you can trust that you're getting the most relevant and effective advice.</p>
             <p class="about__body">I'm here to be your partner in financial success. Whether you're just starting out on your financial journey or you're looking to take your wealth to the next level, I'm here to help. Let's work together to build your financial empire.</p>
           </div>

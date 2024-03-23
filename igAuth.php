@@ -6,7 +6,7 @@ $longToken = "";
 
   function getAccessToken() {
   /**
-   * Get Acess Token
+   * Get Access Token
    * Required Values:
    * Cliend Id
    * Redirect URI
