@@ -17,7 +17,7 @@ $longToken = "";
    $client_id = getenv('CLIENT_ID');
    $ch = curl_init();
 
-   curl_setopt($ch, CURLOPT_URL, 'https://api.instagram.com/oauth/authorize?client_id=1375792749950870&redirect_uri=https://wealthbuildersempire.com/&scope=user_profile,user_media&response_type=code');
+   curl_setopt($ch, CURLOPT_URL, 'https://api.instagram.com/oauth/authorize?client_id=' . $client_id . '&redirect_uri=https://wealthbuildersempire.com/&scope=user_profile,user_media&response_type=code');
    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
  
    $output = curl_exec($ch);
@@ -80,6 +80,7 @@ $longToken = "";
    */
   function getLongToken($shortToken) {
     $ch = curl_init();
+    $clientSecret = getenv('APP_SECRET');
 
     curl_setopt($ch, CURLOPT_URL, 'https://graph.instagram.com/access_token?grant_type=ig_exchange_token&client_secret=' . $clientSecret . '&access_token=' . $shortToken);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
