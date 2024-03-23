@@ -3,7 +3,7 @@ session_start();
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
-    $formSubmitPath = $_SERVER['DOCUMENT_ROOT'] . "/formSubmit.php";
+    $formSubmitPath = $_SERVER['DOCUMENT_ROOT'] . "/formSuccess.php";
 
     // Check CSRF token
     if (!isset($_POST['token']) || $_POST['token'] !== $_SESSION['token']) {

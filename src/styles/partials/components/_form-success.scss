@@ -1,7 +1,15 @@
-.form-submit {
+.form-success {
 }
 
-.form-submit__title {
+.form-success__container {
+  padding: rem(0 20px);
+
+  @include size($md) {
+    padding: rem(80px);
+  }
+}
+
+.form-success__title {
   font-family: $ff-main;
   font-weight: $fw-med;
   font-size: rem(24px);
@@ -12,10 +20,15 @@
   }
 }
 
-.form-submit__body {
+.form-success__body {
+  padding-bottom: rem(20px);
+  font-family: $ff-main;
+  font-weight: $fw-light;
+  font-size: rem(24px);
+  color: $dark-gray;
 }
 
-.form-submit__button {
+.form-success__button {
   padding: rem(20px 25px);
   border: none;
   background-color: $sky-blue;

@@ -19,10 +19,15 @@
 </head>
   <body>
 
-    <div class="form-submit">
-      <h2 class="form-submit__title">Form Submitted!</h2>
-      <p class="form-submit__body">Thank you for submitting the form. I will get back to you as soon as possible.</p>
-      <a class="form-submit__button" href="https://wealthbuildersempire.com">Back to Home</a>
+    <div class="form-success">
+      <div class="form-success__container">
+        <a class="header__logo-container" href="/">
+          <img class="header__logo" src="/src/images/logo-main.png" alt="Wealth Builder's Empire company logo" loading="lazy">
+        </a>
+        <h2 class="form-success__title">Form Submitted!</h2>
+        <p class="form-success__body">Thank you for submitting the form. I will get back to you as soon as possible.</p>
+        <a class="form-success__button" href="https://wealthbuildersempire.com">Back to Home</a>
+      </div>
     </div>
 
   </body>

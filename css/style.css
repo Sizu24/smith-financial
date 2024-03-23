@@ -1211,19 +1211,36 @@ body {
   }
 }
 
-.form-submit__title {
+.form-success__container {
+  padding: 0 1.25rem;
+}
+@media (width > 768px) {
+  .form-success__container {
+    padding: 5rem;
+  }
+}
+
+.form-success__title {
   font-family: "Lato", sans-serif;
   font-weight: 500;
   font-size: 1.5rem;
   color: #545454;
 }
 @media (width > 1024px) {
-  .form-submit__title {
+  .form-success__title {
     font-size: 3rem;
   }
 }
 
-.form-submit__button {
+.form-success__body {
+  padding-bottom: 1.25rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #545454;
+}
+
+.form-success__button {
   padding: 1.25rem 1.5625rem;
   border: none;
   background-color: #4097b2;
@@ -1236,7 +1253,7 @@ body {
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
-.form-submit__button:hover {
+.form-success__button:hover {
   background-color: #f1f1f1;
   color: #001f3f;
 }
