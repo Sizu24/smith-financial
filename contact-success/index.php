@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $message = htmlspecialchars($message);
 
     // Compose and send email
-    $to = "sizu1124@gmail.com"; // Replace with your email address
+    $to = "mattsmithinc33@gmail.com";
     $subject = "Contact Form Submission from $firstName $lastName";
     $messageBody = "Name: $firstName $lastName\n";
     $messageBody .= "Email: $email\n";
