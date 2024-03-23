@@ -1,5 +1,3 @@
-require("dotenv").config();
-
 navToggle();
 whyChooseUsList();
 // getUser();
@@ -32,11 +30,10 @@ function whyChooseUsList() {
 // }
 
 function getProfileMedia() {
-  const longTok = process.env.LONG_TOKEN;
   const mediaId = "your-media-id"; // Replace with the actual media ID
   const fields = "id,caption,media_url,thumbnail_url,permalink"; // Replace with the desired fields
   fetch(
-    `https://graph.instagram.com/me/media?fields=${fields}&access_token=${longTok}`
+    `https://graph.instagram.com/me/media?fields=${fields}&access_token=${longToken}`
   )
     .then((res) => res.json())
     .then((data) => {
