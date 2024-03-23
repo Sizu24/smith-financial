@@ -257,13 +257,13 @@
           </form>
         </div>
 
-        <div class="booking-container">
-        <h2 class="booking__title">Ready to Talk Finance? Reserve Your Consultation</h2>
+        <div class="booking-container" id="appointment">
+          <h2 class="booking__title">Ready to Talk Finance? Reserve Your Consultation</h2>
         </div>
         <!-- Calendly inline widget begin -->
         <div class="calendly-inline-widget" data-url="https://calendly.com/mattsmithinc33" style="min-width:320px;height:700px;"></div>
         <!-- Calendly inline widget end -->
-        </div>
+      </div>
 
     </div>
 
