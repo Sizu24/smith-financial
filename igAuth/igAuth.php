@@ -13,6 +13,8 @@ $longToken = "";
    * Scope: user_profile,user_media
    */
 
+
+   $client_id = getenv('CLIENT_ID');
    $ch = curl_init();
 
    curl_setopt($ch, CURLOPT_URL, 'https://api.instagram.com/oauth/authorize?client_id=1375792749950870&redirect_uri=https://wealthbuildersempire.com/&scope=user_profile,user_media&response_type=code');
@@ -96,3 +98,5 @@ $longToken = "";
     echo $longToken['access_token'];
   }
 ?>
+
+<button>Get Access Token</button>

@@ -287,13 +287,53 @@
 
     <div class="newsletter">
       <div class=newsletter__background></div>
-      <newsletter class="content">
+      <div class="content">
         <h2 class="newsletter__title">Sign up for free wealth knowledge!</h2>
-      </newsletter>
-      <form action="" class="newsletter-form">
-        <input type="text" class="newsletter-form__input">
-        <button class="newsletter-form__button">Subscribe!</button>
-      </form>
+      </div>
+
+
+      <div id="mc_embed_shell">
+  
+        <div id="mc_embed_signup">
+
+          <form action="https://gmail.us8.list-manage.com/subscribe/post?u=8458a0d720d38c5e98e3b51e8&amp;id=8dd2f17644&amp;f_id=00da0ee0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate newsletter-form" target="_self" novalidate="">
+            <div id="mc_embed_signup_scroll">
+              <div class="newsletter-row">
+                <div class="newsletter-group">
+                  <div class="mc-field-group">
+                    <label for="mce-EMAIL"></label>
+                    <input type="email" name="EMAIL" class="required email newsletter-form__input" id="mce-EMAIL" required="" value="">
+                    <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+                  </div>
+                  <div hidden=""><input type="hidden" name="tags" value="5202197"></div>
+                  <div id="mce-responses" class="clear foot">
+                    <div class="response" id="mce-error-response" style="display: none;"></div>
+                    <div class="response" id="mce-success-response" style="display: none;"></div>
+                  </div>
+                  <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                    /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+                    <input type="text" name="b_8458a0d720d38c5e98e3b51e8_8dd2f17644" tabindex="-1" value="">
+                  </div>
+                  <div class="optionalParent"></div>
+                </div>
+
+                <div class="newsletter-group">
+                  <div class="clear foot">
+                    <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button newsletter-form__button" value="Subscribe!">
+                    <p style="margin: 0px auto;">
+                      <a href="http://eepurl.com/iMHb8k" title="Mailchimp - email marketing made easy and fun">
+                        <span style="display: inline-block; background-color: transparent; border-radius: 4px;">
+                        <img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 1px; height: 40px; display: flex; padding: 20px 0px; justify-content: center; align-items: center;">
+                        </span>
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
 
   </main>

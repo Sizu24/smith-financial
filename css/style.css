@@ -1167,6 +1167,12 @@ body {
   }
 }
 
+.newsletter-row {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
 .newsletter-form {
   position: relative;
   display: flex;
@@ -1175,7 +1181,7 @@ body {
 
 .newsletter-form__input {
   width: 250px;
-  padding: 1.25rem 0.625rem;
+  padding: 1.5625rem 0.625rem;
   border: none;
 }
 @media (width > 1024px) {

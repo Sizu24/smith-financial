@@ -63,6 +63,15 @@
   }
 }
 
+.newsletter-row {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.newsletter-group {
+}
+
 .newsletter-form {
   position: relative;
   display: flex;
@@ -71,7 +80,7 @@
 
 .newsletter-form__input {
   width: 250px;
-  padding: rem(20px 10px);
+  padding: rem(25px 10px);
   border: none;
 
   @include size($lg) {
