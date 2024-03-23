@@ -3,6 +3,11 @@ session_start();
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
+    if (empty($_POST["first-name"]) || empty($_POST["last-name"]) || empty($_POST["email"]) || empty($_POST["message"])) {
+        // One or more required fields are empty, handle this error as needed
+        die("All required fields must be filled out");
+    }
+
     $formSubmitPath = $_SERVER['DOCUMENT_ROOT'] . "/formSuccess.php";
 
     // Check CSRF token

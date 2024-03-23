@@ -237,19 +237,19 @@
           </ul> -->
           <form method="post" action="/contact-success/" class="contact-form">
             <label for="first-name" class="contact-form__label">First Name</label>
-            <input class="contact-form__input" id="first-name" name="first-name" type="text">
+            <input class="contact-form__input" id="first-name" name="first-name" type="text" required>
 
             <label for="last-name" class="contact-form__label">Last Name</label>
-            <input class="contact-form__input" id="last-name" name="last-name" type="text">
+            <input class="contact-form__input" id="last-name" name="last-name" type="text" required>
 
             <label for="email" class="contact-form__label">Contact Email</label>
-            <input class="contact-form__input" id="email" name="email" type="text">
+            <input class="contact-form__input" id="email" name="email" type="text" required>
 
             <label for="contact-phone" class="contact-form__label">Contact Phone</label>
             <input class="contact-form__input" id="contact-phone" name="contact-phone" type="text">
 
             <label for="message" class="contact-form__label">Message</label>
-            <textarea class="contact-form__textbox" name="message" id="message" cols="30" rows="10"></textarea>
+            <textarea class="contact-form__textbox" name="message" id="message" cols="30" rows="10" required></textarea>
 
             <input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>">
 
