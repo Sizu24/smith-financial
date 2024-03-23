@@ -3,6 +3,8 @@ session_start();
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
+    $formSubmitPath = $_SERVER['DOCUMENT_ROOT'] . "/formSubmit.php";
+
     // Check CSRF token
     if (!isset($_POST['token']) || $_POST['token'] !== $_SESSION['token']) {
         http_response_code(400); // Bad Request
@@ -39,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $headers = "From: $email";
 
     if (mail($to, $subject, $messageBody, $headers)) {
-        echo json_encode(["success" => true]);
+        include $formSubmitPath;
     } else {
         echo json_encode(["success" => false]);
     }

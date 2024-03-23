@@ -290,18 +290,16 @@
       <div class="content">
         <h2 class="newsletter__title">Sign up for free wealth knowledge!</h2>
       </div>
-
-
+      <!-- Mailchimp newletter embed--->
       <div id="mc_embed_shell">
-  
         <div id="mc_embed_signup">
-
           <form action="https://gmail.us8.list-manage.com/subscribe/post?u=8458a0d720d38c5e98e3b51e8&amp;id=8dd2f17644&amp;f_id=00da0ee0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate newsletter-form" target="_self" novalidate="">
             <div id="mc_embed_signup_scroll">
-              <div class="newsletter-row">
-                <div class="newsletter-group">
+              <div class="newsletter-row"> <!-- custom element -->
+                <div class="newsletter-group"> <!-- custom element -->
                   <div class="mc-field-group">
                     <label for="mce-EMAIL"></label>
+                    <!-- input contains custom class name -->
                     <input type="email" name="EMAIL" class="required email newsletter-form__input" id="mce-EMAIL" required="" value="">
                     <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
                   </div>
@@ -317,8 +315,9 @@
                   <div class="optionalParent"></div>
                 </div>
 
-                <div class="newsletter-group">
+                <div class="newsletter-group"> <!-- custom element -->
                   <div class="clear foot">
+                    <!-- input for submit button contains custom class name -->
                     <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button newsletter-form__button" value="Subscribe!">
                     <p style="margin: 0px auto;">
                       <a href="http://eepurl.com/iMHb8k" title="Mailchimp - email marketing made easy and fun">

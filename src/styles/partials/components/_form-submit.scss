@@ -1,0 +1,35 @@
+.form-submit {
+}
+
+.form-submit__title {
+  font-family: $ff-main;
+  font-weight: $fw-med;
+  font-size: rem(24px);
+  color: $dark-gray;
+
+  @include size($lg) {
+    font-size: rem(48px);
+  }
+}
+
+.form-submit__body {
+}
+
+.form-submit__button {
+  padding: rem(20px 25px);
+  border: none;
+  background-color: $sky-blue;
+  border-radius: rem(5px);
+  font-family: $ff-main;
+  font-weight: $fw-reg;
+  font-size: rem(18px);
+  color: $light;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $light;
+    color: $navy-blue;
+  }
+}
