@@ -1211,6 +1211,36 @@ body {
   }
 }
 
+.form-submit__title {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: #545454;
+}
+@media (width > 1024px) {
+  .form-submit__title {
+    font-size: 3rem;
+  }
+}
+
+.form-submit__button {
+  padding: 1.25rem 1.5625rem;
+  border: none;
+  background-color: #4097b2;
+  border-radius: 0.3125rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #f1f1f1;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.form-submit__button:hover {
+  background-color: #f1f1f1;
+  color: #001f3f;
+}
+
 .footer {
   width: 100%;
   background-color: #fff;
