@@ -65,7 +65,7 @@
         </div>
       <div class="hero__content">
         <h1 class="hero__title">Your Financial Future Starts Here</h1>
-        <p class="hero__subhead">Personalized financial, and life insurnace plans to secure your finances and empower your dreams</p>
+        <p class="hero__subhead">Personalized term life insurnace, and financial plans to secure your finances and empower your dreams</p>
         <div class="hero__cta-group">
           <a href="#appointment" class="hero__cta">Get a FREE Term Life Insurance Consultation</a>
           <a href="#contact" class="hero__cta">Tell Me More</a>
@@ -164,7 +164,7 @@
               </div>
               <div class="goals-cards__content">
                 <h3 class="goals-cards__card-title">Protecting What Matters</h3>
-                <p class="goals-cards__card-body">Life is unpredictable, but your finances don't have to be. From insurance to estate planning, let's safeguard your family's future, no matter what life brings.</p>
+                <p class="goals-cards__card-body">Life is unpredictable, but your finances don't have to be. From term life insurance to estate planning, let's safeguard your family's future, no matter what life brings.</p>
               </div>
             </div>
             <div class="goals-cards__card">
@@ -182,7 +182,7 @@
               </div>
               <div class="goals-cards__content">
                 <h3 class="goals-cards__card-title">Estate Planning</h3>
-                <p class="goals-cards__card-body">Leave a lasting legacy. Our comprehensive estate planning and life insurance services ensure your values, assets, and love reach the ones who matter most, exactly as you envision.</p>
+                <p class="goals-cards__card-body">Leave a lasting legacy. Our comprehensive estate planning and term life insurance services ensure your values, assets, and love reach the ones who matter most, exactly as you envision.</p>
               </div>
             </div>
             <div class="goals-cards__card">
