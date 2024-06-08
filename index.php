@@ -58,7 +58,7 @@
       <div class="hero__video-container">
         <div class="hero__overlay"></div>
           <video class="hero__video" preload="metadata" autoplay muted loop playsinline>
-            <source src="./src/videos/family.mov" type="video/mp4">
+            <source src="./src/videos/family.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
         </div>
@@ -80,7 +80,7 @@
           <div class="text-media from-left js-text-media-animation">
             <div class="text-media__media">
               <div class="text-media__media-container">
-                <img class="text-media__media-image" src="./src/images/pexels-anna-nekrashevich-6801872.jpg" alt="">
+                <img class="text-media__media-image" src="./src/images/pexels-anna-nekrashevich-6801872.jpg" alt="Image of person">
               </div>
             </div>
 
