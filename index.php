@@ -10,8 +10,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="index, follow">
-  <meta name="description" content="Discover financial success with Wealth Builders Empire, your trusted financial advisor in Reno and Sparks Nevada. I, Matthew Smith offer expert guidance for wealth creation, investment strategies, retirement planning, and more. Let me help you build your financial empire today.">
-  <meta name="keywords" content="term life insurance, universal life insurance, insurance policy, term life insurance reno, estate planning, reno financial planners, directions to reno, wealth management reno, financial advisor reno, sparks financial advisors, wealth management, financial advisors near me, estate planning reno, investment strategies, retirement planning, financial planning, financial advisor reno, financial advisor sparks, financial advisor nevada">
+  <meta name="description" content="Discover financial success with Wealth Builders Empire, your trusted advisor for finances and term life insurance in Reno and Sparks Nevada. I, Matthew Smith offer expert guidance for wealth creation, investment strategies, life insurnace, retirement planning, and more. Let me help you build your financial empire today.">
+  <meta name="keywords" content="term life insurance, life insurnace, universal life insurance, insurance policy, term life insurance reno, estate planning, reno financial planners, directions to reno, wealth management reno, life insurnace reno, sparks financial advisors, wealth management, financial advisors near me, estate planning reno, investment strategies, retirement planning, financial planning, financial advisor reno, financial advisor sparks, financial advisor nevada">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -65,9 +65,9 @@
         </div>
       <div class="hero__content">
         <h1 class="hero__title">Your Financial Future Starts Here</h1>
-        <p class="hero__subhead">Personalized plans to secure your finances and empower your dreams</p>
+        <p class="hero__subhead">Personalized financial, and life insurnace plans to secure your finances and empower your dreams</p>
         <div class="hero__cta-group">
-          <a href="#appointment" class="hero__cta">Get a FREE Consultation</a>
+          <a href="#appointment" class="hero__cta">Get a FREE Term Life Insurance Consultation</a>
           <a href="#contact" class="hero__cta">Tell Me More</a>
         </div>
       </div>
@@ -182,7 +182,7 @@
               </div>
               <div class="goals-cards__content">
                 <h3 class="goals-cards__card-title">Estate Planning</h3>
-                <p class="goals-cards__card-body">Leave a lasting legacy. Our comprehensive estate planning services ensure your values, assets, and love reach the ones who matter most, exactly as you envision.</p>
+                <p class="goals-cards__card-body">Leave a lasting legacy. Our comprehensive estate planning and life insurance services ensure your values, assets, and love reach the ones who matter most, exactly as you envision.</p>
               </div>
             </div>
             <div class="goals-cards__card">
