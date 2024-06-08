@@ -81,7 +81,7 @@
           <div class="text-media from-left js-text-media-animation">
             <div class="text-media__media">
               <div class="text-media__media-container">
-                <img class="text-media__media-image" src="./src/images/pexels-anna-nekrashevich-6801872.jpg" alt="Image of person">
+                <img class="text-media__media-image" src="./src/images/pexels-anna-nekrashevich-6801872.webp" alt="Image of person">
               </div>
             </div>
 
@@ -100,7 +100,7 @@
           <div class="text-media from-right flipped js-text-media-animation">
             <div class="text-media__media">
               <div class="text-media__media-container">
-                <img class="text-media__media-image" src="./src/images/matthew-reyes--C-jTjc0g7I-unsplash.jpg" alt="Man in business attire sitting at table looking at his phone">
+                <img class="text-media__media-image" src="./src/images/matthew-reyes--C-jTjc0g7I-unsplash.webp" alt="Man in business attire sitting at table looking at his phone">
               </div>  
             </div>
 
@@ -119,7 +119,7 @@
           <div class="text-media from-left js-text-media-animation">
             <div class="text-media__media">
               <div class="text-media__media-container">
-                <img class="text-media__media-image" src="./src/images/people-working-their-office.jpg" alt="Two people looking at a document on a clip board in an office">
+                <img class="text-media__media-image" src="./src/images/people-working-their-office.webp" alt="Two people looking at a document on a clip board in an office">
               </div>
             </div>
 
@@ -135,7 +135,7 @@
           <div class="text-media from-right flipped js-text-media-animation">
             <div class="text-media__media">
               <div class="text-media__media-container">
-                <img class="text-media__media-image" src="./src/images/AdobeStock_642464666 Large.jpeg" alt="Man standing in front of a building weaing a suit, looking at the buildings">
+                <img class="text-media__media-image" src="./src/images/AdobeStock_642464666 Large.webp" alt="Man standing in front of a building weaing a suit, looking at the buildings">
               </div>
             </div>
 
@@ -274,7 +274,7 @@
           <div class="about__media">
           <h2 class="about__title">Meet Matt Smith</h2>
             <div class="about__image-container">
-              <img class="about__image"src="./src/images/profile-pic.jpeg" alt="Matthew Smith, Wealth Builders Empire" class="about__media-image" loading="lazy">
+              <img class="about__image"src="./src/images/profile-pic.webp" alt="Matthew Smith, Wealth Builders Empire" class="about__media-image" loading="lazy">
             </div>
           </div>
 
