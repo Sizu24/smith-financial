@@ -2,3 +2,16 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.container {
+  margin: 0 auto;
+  padding: rem(0 20px);
+
+  @include size($lg) {
+    padding: rem(0 100px);
+  }
+}
+
+.text-center {
+  text-align: center;
+} 

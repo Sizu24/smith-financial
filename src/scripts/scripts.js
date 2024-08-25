@@ -1,7 +1,8 @@
+console.log("scripts.js loaded"); 
 navToggle();
 whyChooseUsList();
 // getUser();
-getProfileMedia();
+// getProfileMedia();
 centerWhyChooseUs();
 scrollAnimation();
 let posts;

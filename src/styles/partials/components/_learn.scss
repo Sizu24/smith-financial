@@ -1,0 +1,336 @@
+.learn {
+
+}
+
+.learn-header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(180deg, #fff 50%,  #e66465 140%);
+    overflow: hidden;
+}
+
+.learn-header__content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 6.25rem;
+    max-width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.10));
+    z-index: 1;
+}
+
+.learn-header__title {
+    margin-bottom: rem(0);
+    padding-top: rem(300px);
+    font-family: $ff-main;
+    font-weight: $fw-bold;
+    font-size: rem(50px);
+    color: $light;
+  
+    @include size($md) {
+        top: 25%;
+        font-size: rem(60px);
+        max-width: rem(800px);
+    }
+}
+
+.learn-header__description {
+    margin-bottom: rem(50px);
+    font-family: $ff-main;
+    font-size: rem(20px);
+    color: $light;
+}
+
+.learn-header__image-container {
+    overflow: hidden;
+    z-index: 1;
+}
+
+.learn-header__image {
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.learn-content__section {
+    display: flex;
+    flex-direction: column;
+}
+
+.learn-content__section--dark {
+    background: $blue;
+     h3 {
+        color: $light;
+     }
+
+     p {
+        color: $light;
+     }
+}
+
+.learn-content__section-title {
+    text-align: center;
+    font-family: $ff-main;
+    font-weight: $fw-bold;
+    font-size: rem(50px);
+    color: $dark;
+    margin-bottom: 50px;
+}
+
+.learn-content__links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    gap: 2px;
+    padding: 0;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, .2);
+}
+
+.learn-content__links-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: $blue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    transition: all .3s;
+
+    &:hover {
+        background: $sky-blue;
+        cursor: pointer;
+    }
+}
+
+.learn-content__links-item:nth-of-type(2) {
+    background: #274075;
+
+    &:hover {
+        background: $teal;
+        cursor: pointer;
+    }
+}
+.learn-content__links-item:nth-of-type(3) {
+    background: #274075;
+
+    &:hover {
+        background: $teal;
+        cursor: pointer;
+    }
+}
+
+.learn-content__links-link {
+    padding: 100px 0;
+    font-family: $ff-main;
+    font-size: rem(20px);
+    color: $light;
+    text-decoration: none;
+}
+
+.learn-content {
+    padding: 100px 0; 
+}
+
+.learn-content__title {
+    font-family: $ff-main;
+    font-weight: $fw-bold;
+    font-size: rem(50px);
+    color: $dark;
+}
+
+.learn-content__description {
+    margin-bottom: 50px;
+    font-family: $ff-main;
+    font-size: rem(20px);
+    color: $dark;
+}
+
+.learn-text-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    @include size($md) {
+        flex-direction: row;
+        padding: rem(100px);
+    }
+}
+
+.learn-text-media--reverse {
+    background-color: $blue;
+    flex-direction: row-reverse;
+
+    .learn-text-media__text h3 {
+        color: $light;
+    }
+
+    .learn-text-media__text p {
+        color: $light;
+    }
+
+    .learn-text-media__text li {
+        color: $light;
+    }
+
+    .learn-text-media__text strong {
+        color: $light;
+    }
+
+    .learn-text-media__media {
+        text-align: left;
+        transform: scaleX(-1);
+    }   
+}
+
+.learn-text-media__text {
+    width: 50%;
+}
+
+.learn-text-media__media {
+    width: 50%;
+}   
+
+.learn-text-media__media-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.learn-content__list {
+    font-family: $ff-main;
+}
+
+.learn-content__list-item {
+    padding: rem(20px 0);
+    font-size: rem(20px);
+    color: $dark;
+}
+
+.learn-split {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+    text-align: left;
+
+    @include size($md) {
+        flex-direction: row;
+        padding: rem(0 0 50px 0);
+    }
+}
+
+.learn-split__section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 100px;
+    width: 50%;
+    height: 600px;
+    text-align: center;
+}
+
+.learn-split__section:nth-of-type(1) {
+    background-image: url('../src/images/surfer-4376412_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    color: $light;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(20, 31, 69, 0.8);
+    }
+}
+
+.learn-split__section:nth-of-type(2) {
+    background-image: url('../src/images/beach-4455433_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    color: $light;
+
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(15, 16, 1, 0.8);
+    }
+}
+
+.learn-split__section--light {
+    color: $light;
+
+    h3 {
+        color: $light;
+    }
+
+    p {
+        color: $light;
+    }
+
+    li {
+        color: $light;
+    }
+
+    strong {
+        color: $light;
+    }
+
+    a {
+        color: $light;
+    }
+}
+
+.learn-split__content {
+    z-index: 1;
+}
+
+.learn-split__heading {
+    position: absolute;
+    top: 0;
+}
+
+.learn-split__content-title {
+    padding-bottom: rem(30px);
+    font-family: $ff-main;
+    font-weight: $fw-bold;
+    font-size: rem(48px);
+    color: $dark;
+}
+
+.learn-split__description {
+    font-family: $ff-main;
+    font-size: rem(20px);
+    color: $dark;
+}
+
+.learn-split__list {
+    margin-top: 80px;
+    list-style: none;
+    font-family: $ff-main;
+}
+
+.learn-split__list-item {
+    padding: rem(20px 0);
+    font-size: rem(20px);
+    color: $dark;
+}

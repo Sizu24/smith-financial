@@ -3,6 +3,20 @@ body {
   padding: 0;
 }
 
+.container {
+  margin: 0 auto;
+  padding: 0 1.25rem;
+}
+@media (width > 1024px) {
+  .container {
+    padding: 0 6.25rem;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
 .swiper {
   width: 100%;
 }
@@ -960,6 +974,327 @@ body {
   background-color: #f1f1f1;
   color: #001f3f;
   border: 2px solid #001f3f;
+}
+
+.learn-header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(180deg, #fff 50%, #e66465 140%);
+  overflow: hidden;
+}
+
+.learn-header__content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 6.25rem;
+  max-width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1));
+  z-index: 1;
+}
+
+.learn-header__title {
+  margin-bottom: 0;
+  padding-top: 18.75rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 3.125rem;
+  color: #f1f1f1;
+}
+@media (width > 768px) {
+  .learn-header__title {
+    top: 25%;
+    font-size: 3.75rem;
+    max-width: 50rem;
+  }
+}
+
+.learn-header__description {
+  margin-bottom: 3.125rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  color: #f1f1f1;
+}
+
+.learn-header__image-container {
+  overflow: hidden;
+  z-index: 1;
+}
+
+.learn-header__image {
+  padding-top: 40px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.learn-content__section {
+  display: flex;
+  flex-direction: column;
+}
+
+.learn-content__section--dark {
+  background: #162b57;
+}
+.learn-content__section--dark h3 {
+  color: #f1f1f1;
+}
+.learn-content__section--dark p {
+  color: #f1f1f1;
+}
+
+.learn-content__section-title {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 3.125rem;
+  color: #252525;
+  margin-bottom: 50px;
+}
+
+.learn-content__links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  gap: 2px;
+  padding: 0;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.learn-content__links-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #162b57;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+.learn-content__links-item:hover {
+  background: #4097b2;
+  cursor: pointer;
+}
+
+.learn-content__links-item:nth-of-type(2) {
+  background: #274075;
+}
+.learn-content__links-item:nth-of-type(2):hover {
+  background: #0074a8;
+  cursor: pointer;
+}
+
+.learn-content__links-item:nth-of-type(3) {
+  background: #274075;
+}
+.learn-content__links-item:nth-of-type(3):hover {
+  background: #0074a8;
+  cursor: pointer;
+}
+
+.learn-content__links-link {
+  padding: 100px 0;
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+.learn-content {
+  padding: 100px 0;
+}
+
+.learn-content__title {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 3.125rem;
+  color: #252525;
+}
+
+.learn-content__description {
+  margin-bottom: 50px;
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  color: #252525;
+}
+
+.learn-text-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+@media (width > 768px) {
+  .learn-text-media {
+    flex-direction: row;
+    padding: 6.25rem;
+  }
+}
+
+.learn-text-media--reverse {
+  background-color: #162b57;
+  flex-direction: row-reverse;
+}
+.learn-text-media--reverse .learn-text-media__text h3 {
+  color: #f1f1f1;
+}
+.learn-text-media--reverse .learn-text-media__text p {
+  color: #f1f1f1;
+}
+.learn-text-media--reverse .learn-text-media__text li {
+  color: #f1f1f1;
+}
+.learn-text-media--reverse .learn-text-media__text strong {
+  color: #f1f1f1;
+}
+.learn-text-media--reverse .learn-text-media__media {
+  text-align: left;
+  transform: scaleX(-1);
+}
+
+.learn-text-media__text {
+  width: 50%;
+}
+
+.learn-text-media__media {
+  width: 50%;
+}
+
+.learn-text-media__media-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.learn-content__list {
+  font-family: "Lato", sans-serif;
+}
+
+.learn-content__list-item {
+  padding: 1.25rem 0;
+  font-size: 1.25rem;
+  color: #252525;
+}
+
+.learn-split {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 0;
+  text-align: left;
+}
+@media (width > 768px) {
+  .learn-split {
+    flex-direction: row;
+    padding: 0 0 3.125rem 0;
+  }
+}
+
+.learn-split__section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 100px;
+  width: 50%;
+  height: 600px;
+  text-align: center;
+}
+
+.learn-split__section:nth-of-type(1) {
+  background-image: url("../src/images/surfer-4376412_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #f1f1f1;
+}
+.learn-split__section:nth-of-type(1)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(20, 31, 69, 0.8);
+}
+
+.learn-split__section:nth-of-type(2) {
+  background-image: url("../src/images/beach-4455433_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #f1f1f1;
+}
+.learn-split__section:nth-of-type(2)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(15, 16, 1, 0.8);
+}
+
+.learn-split__section--light {
+  color: #f1f1f1;
+}
+.learn-split__section--light h3 {
+  color: #f1f1f1;
+}
+.learn-split__section--light p {
+  color: #f1f1f1;
+}
+.learn-split__section--light li {
+  color: #f1f1f1;
+}
+.learn-split__section--light strong {
+  color: #f1f1f1;
+}
+.learn-split__section--light a {
+  color: #f1f1f1;
+}
+
+.learn-split__content {
+  z-index: 1;
+}
+
+.learn-split__heading {
+  position: absolute;
+  top: 0;
+}
+
+.learn-split__content-title {
+  padding-bottom: 1.875rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #252525;
+}
+
+.learn-split__description {
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  color: #252525;
+}
+
+.learn-split__list {
+  margin-top: 80px;
+  list-style: none;
+  font-family: "Lato", sans-serif;
+}
+
+.learn-split__list-item {
+  padding: 1.25rem 0;
+  font-size: 1.25rem;
+  color: #252525;
 }
 
 .booking {
