@@ -11,7 +11,8 @@
           <li class="footer-links__item"><a href="#about">About</a></li>
           <li class="footer-links__item"><a href="#goals">Financial Goals</a></li>
           <li class="footer-links__item"><a href="#appointment">Book Appointment</a></li>
-          <li class="footer-links__item"><a href="#knowledge">Knowledge</a></li>
+          <li class="footer-links__item"><a href="/learn">Knowledge</a></li>
+          <li class="footer-links__item"><a href="#ig">Insights</a></li>
           <li class="footer-links__item"><a href="#contact">Contact</a></li>
         </ul>
       </div>

@@ -35,6 +35,7 @@
         <li class="nav__list-item"><a class="nav__list-link" href="#goals">Financial Goals</a></li>
         <li class="nav__list-item"><a class="nav__list-link" href="#appointment">Book Appointment</a></li>
         <li class="nav__list-item"><a class="nav__list-link" href="/learn">Knowledge</a></li>
+        <li class="nav__list-item"><a class="nav__list-link" href="#ig">Insights</a></li>
         <li class="nav__list-item"><a class="nav__list-link" href="#about">About Me</a></li>
         <li class="nav__list-item"><a class="nav__list-link" href="#contact">Contact</a></li>
       </ul>
@@ -49,6 +50,7 @@
         <li class="nav-mobile__list-item"><a class="nav-mobile__list-link" href="#goals">Financial Goals</a></li>
         <li class="nav-mobile__list-item"><a class="nav-mobile__list-link" href="#appointment">Book Appointment</a></li>
         <li class="nav-mobile__list-item"><a class="nav-mobile__list-link" href="/learn">Knowledge</a></li>
+        <li class="nav-mobile__list-item"><a class="nav-mobile__list-link" href="#ig">Insights</a></li>
         <li class="nav-mobile__list-item"><a class="nav-mobile__list-link" href="#about">About Me</a></li>
         <li class="nav-mobile__list-item"><a class="nav-mobile__list-link" href="#contact">Contact</a></li>
       </ul>
