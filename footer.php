@@ -3,7 +3,7 @@
     <div class="footer-content">
       <div class="footer-column">
         <div class="footer__logo-container">
-          <img src="../src/images/logo-main.png" alt="Wealth Builder's Empire logo" class="footer__logo" loading="lazy">
+          <img src="/src/images/logo-main.png" alt="Wealth Builder's Empire logo" class="footer__logo" loading="lazy">
         </div>
       </div>
       <div class="footer-column">
@@ -31,7 +31,7 @@
 
           <li class="footer-contact__item">
             <a href="https://www.instagram.com/forbidden_knowledge33/" target="_blank">
-              <img src="../src/icons/instagram.svg" alt="Instagram Icon" class="footer-contact__item-image">
+              <img src="/src/icons/instagram.svg" alt="Instagram Icon" class="footer-contact__item-image">
             </a>
           </li>
         </ul>
@@ -46,6 +46,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-  <script type="module" src="src/scripts/scripts.js"></script>
+  <script type="module" src="/src/scripts/scripts.js"></script>
 </body>
 </html>

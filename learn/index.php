@@ -1,4 +1,4 @@
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/wealth-builders-empire/header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . 'header.php'; ?>
     <div class="learn">
         <header class="learn-header">
             <div class="learn-header__content">
@@ -175,4 +175,4 @@
             </div>
         </main>
     </div>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/wealth-builders-empire/footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . 'footer.php'; ?>
