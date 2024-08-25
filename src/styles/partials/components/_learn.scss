@@ -26,7 +26,7 @@
     background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.10));
     z-index: 1;
 
-    @include size($md) {
+    @include size($lg) {
         padding: 0 0 0 6.25rem;
     }
 }
@@ -39,7 +39,7 @@
     font-size: rem(30px);
     color: $light;
   
-    @include size($md) {
+    @include size($lg) {
         top: 25%;
         padding-top: rem(300px);
         font-size: rem(60px);
@@ -54,7 +54,7 @@
     font-size: rem(16px);
     color: $light;
 
-    @include size($md) {
+    @include size($lg) {
         font-size: rem(20px);
     }
 }
@@ -118,7 +118,7 @@
     padding: 0;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, .2);
 
-    @include size($md) {
+    @include size($lg) {
         display: grid;
         grid-template-columns: repeat(2, minmax(300px, 1fr));
     }
@@ -164,7 +164,7 @@
     color: $light;
     text-decoration: none;
 
-    @include size($md) {
+    @include size($lg) {
         padding: 100px 0;
         font-size: rem(20px);
     }
@@ -176,7 +176,7 @@
     font-size: rem(28px);
     color: $ocean-blue;
 
-    @include size($md) {
+    @include size($lg) {
         font-size: rem(50px);
     }
 }
@@ -191,7 +191,7 @@
         color: $ocean-blue;
     }
 
-    @include size($md) {
+    @include size($lg) {
         margin-bottom: 50px;
         font-size: rem(20px);
     }
@@ -204,7 +204,7 @@
     align-items: center;
     padding: 20px;
 
-    @include size($md) {
+    @include size($lg) {
         flex-direction: row;
         padding: rem(100px);
     }
@@ -213,7 +213,7 @@
 .learn-text-media--reverse {
     background-color: $blue;
 
-    @include size($md) {        
+    @include size($lg) {        
         flex-direction: row-reverse;
     }
 
@@ -240,14 +240,14 @@
 }
 
 .learn-text-media__text {
-    @include size($md) {
+    @include size($lg) {
         width: 50%;
     }
 }
 
 .learn-text-media__media {
 
-    @include size($md) {
+    @include size($lg) {
         width: 50%;
     }
 }   
@@ -259,7 +259,7 @@
     border-radius: 5px;
     overflow: hidden;
 
-    @include size($md) {
+    @include size($lg) {
         width: 500px;
     }
 }
@@ -288,7 +288,7 @@
     padding: 20px 0;
     text-align: left;
 
-    @include size($md) {
+    @include size($lg) {
         flex-direction: row;
         padding: rem(0 0 50px 0);
     }
@@ -301,7 +301,7 @@
     padding: 50px 20px;
     text-align: center;
 
-    @include size($md) {
+    @include size($lg) {
         padding: 200px 100px;
         justify-content: center;
         align-items: center;
@@ -384,7 +384,7 @@
     font-size: rem(28px);
     color: $dark;
 
-    @include size($md) {
+    @include size($lg) {
         font-size: rem(48px);
     }
 }
@@ -401,7 +401,7 @@
     list-style: none;
     font-family: $ff-main;
 
-    @include size($md) {
+    @include size($lg) {
         margin-top: 80px;
     }
 }
@@ -411,7 +411,7 @@
     font-size: rem(16px);
     color: $dark;
 
-    @include size($md) {
+    @include size($lg) {
         font-size: rem(20px);
     }
 }
