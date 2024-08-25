@@ -6,7 +6,7 @@
                 <p class="learn-header__description">Empowering Your Financial Security</p>
             </div>
             <div class="learn-header__image-container">
-                <img class="learn-header__image" src="/wealth-builders-empire/src/images/AdobeStock_671620057_Large.webp" alt="">
+                <img class="learn-header__image" src="../src/images/AdobeStock_671620057_Large.webp" alt="">
             </div>
         </header>
 
@@ -50,7 +50,7 @@
                     </div>
                     <div class="learn-text-media__media">
                         <div class="learn-text-media__image-container">
-                            <img class="learn-text-media__media-image" src="/wealth-builders-empire/src/images/learn-image1.webp" alt="Life insurance policies that have living benefits" class="learn-content__image">
+                            <img class="learn-text-media__media-image" src="../src/images/learn-image1.webp" alt="Life insurance policies that have living benefits" class="learn-content__image">
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                     </div>
                     <div class="learn-text-media__media">
                         <div class="learn-text-media__image-container">
-                            <img class="learn-text-media__media-image" src="/wealth-builders-empire/src/images/wealth-people.jpg" alt="Life insurance policies that have living benefits" class="learn-content__image">
+                            <img class="learn-text-media__media-image" src="../src/images/wealth-people.jpg" alt="Life insurance policies that have living benefits" class="learn-content__image">
                         </div>
                     </div>
                 </div>
@@ -118,7 +118,7 @@
                     </div>
                     <div class="learn-text-media__media">
                         <div class="learn-text-media__image-container">
-                            <img class="learn-text-media__media-image" src="/wealth-builders-empire/src/images/learn-image-4.webp" alt="Life insurance policies that have living benefits" class="learn-content__image">
+                            <img class="learn-text-media__media-image" src="../src/images/learn-image-4.webp" alt="Life insurance policies that have living benefits" class="learn-content__image">
                         </div>
                     </div>
                 </div>
