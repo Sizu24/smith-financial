@@ -14,14 +14,14 @@
             <div class="learn-content">
                 <div class="learn-content__section container">
                     <ul class="learn-content__links">
-                        <li class="learn-content__links-item"><a class="learn-content__links-link" href="#">Life insurance policies that have living benefits</a></li>
-                        <li class="learn-content__links-item"><a class="learn-content__links-link" href="#">How life insurance creates generational wealth</a></li>
-                        <li class="learn-content__links-item"><a class="learn-content__links-link" href="#">Why it's important to protect your finances with life insurance</a></li>
-                        <li class="learn-content__links-item"><a class="learn-content__links-link" href="#">Permanent life insurance versus Term life insurance policy</a></li>
+                        <li class="learn-content__links-item"><a class="learn-content__links-link" href="#learn-1">Life insurance policies that have living benefits</a></li>
+                        <li class="learn-content__links-item"><a class="learn-content__links-link" href="#learn-2">How life insurance creates generational wealth</a></li>
+                        <li class="learn-content__links-item"><a class="learn-content__links-link" href="#learn-3">Why it's important to protect your finances with life insurance</a></li>
+                        <li class="learn-content__links-item"><a class="learn-content__links-link" href="#learn-4">Permanent life insurance versus Term life insurance policy</a></li>
                     </ul>
                 </div>
 
-                <div class="learn-text-media">
+                <div class="learn-text-media" id="learn-1">
                     <div class="learn-text-media__text">
                         <h3 class="learn-content__title">Life insurance policies that have living benefits</h3>
                         <p class="learn-content__description">
@@ -49,11 +49,13 @@
                         </div>
                     </div>
                     <div class="learn-text-media__media">
-                        <img class="learn-text-media__media-image" src="/wealth-builders-empire/src/images/AdobeStock_671620057_Large.webp" alt="Life insurance policies that have living benefits" class="learn-content__image">
+                        <div class="learn-text-media__image-container">
+                            <img class="learn-text-media__media-image" src="/wealth-builders-empire/src/images/learn-image1.webp" alt="Life insurance policies that have living benefits" class="learn-content__image">
+                        </div>
                     </div>
                 </div>
 
-                <div class="learn-text-media learn-text-media--reverse">
+                <div class="learn-text-media learn-text-media--reverse" id="learn-2">
                     <div class="learn-text-media__text">
                         <h3 class="learn-content__title">How life insurance can create generational wealth</h3>
                         <p class="learn-content__description">
@@ -81,11 +83,13 @@
                         </div>
                     </div>
                     <div class="learn-text-media__media">
-                        <img class="learn-text-media__media-image" src="/wealth-builders-empire/src/images/AdobeStock_671620057_Large.webp" alt="Life insurance policies that have living benefits" class="learn-content__image">
+                        <div class="learn-text-media__image-container">
+                            <img class="learn-text-media__media-image" src="/wealth-builders-empire/src/images/wealth-people.jpg" alt="Life insurance policies that have living benefits" class="learn-content__image">
+                        </div>
                     </div>
                 </div>
 
-                <div class="learn-text-media">
+                <div class="learn-text-media" id="learn-3">
                     <div class="learn-text-media__text">
                         <h3 class="learn-content__title">Why It's Important to Protect Your Finances with Life Insurances</h3>
                         <p class="learn-content__description">
@@ -113,12 +117,14 @@
                         </div>
                     </div>
                     <div class="learn-text-media__media">
-                        <img class="learn-text-media__media-image" src="/wealth-builders-empire/src/images/AdobeStock_671620057_Large.webp" alt="Life insurance policies that have living benefits" class="learn-content__image">
+                        <div class="learn-text-media__image-container">
+                            <img class="learn-text-media__media-image" src="/wealth-builders-empire/src/images/learn-image-4.webp" alt="Life insurance policies that have living benefits" class="learn-content__image">
+                        </div>
                     </div>
                 </div>
                 
 
-                <div class="learn-content__section text-center">
+                <div class="learn-content__section learn-content__section--dark text-center" id="learn-4">
                     <div class="container">
                         <h3 class="learn-content__title">Permanent Life Insurance vs Term Life Insurance</h3>
                         <p class="learn-content__description">
