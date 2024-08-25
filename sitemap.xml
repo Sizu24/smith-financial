@@ -4,21 +4,27 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://wealthbuildersempire.com/</loc>
-  <lastmod>2024-06-08T19:47:18+00:00</lastmod>
+  <lastmod>2024-08-25T20:12:27+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://wealthbuildersempire.com/learn/</loc>
+  <lastmod>2024-08-25T20:12:27+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://wealthbuildersempire.com/privacy/</loc>
-  <lastmod>2024-06-08T19:47:18+00:00</lastmod>
+  <lastmod>2024-08-25T20:12:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://wealthbuildersempire.com/terms-and-conditions/</loc>
-  <lastmod>2024-06-08T19:47:18+00:00</lastmod>
+  <lastmod>2024-08-25T20:12:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
