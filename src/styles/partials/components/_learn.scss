@@ -20,33 +20,43 @@
     right: 0;
     display: flex;
     flex-direction: column;
-    padding: 0 0 0 6.25rem;
+    padding: rem(0 0 0 20px);
     max-width: 100%;
     height: 100%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0.10));
     z-index: 1;
+
+    @include size($md) {
+        padding: 0 0 0 6.25rem;
+    }
 }
 
 .learn-header__title {
     margin-bottom: rem(0);
-    padding-top: rem(300px);
+    padding-top: rem(416px);
     font-family: $ff-main;
     font-weight: $fw-bold;
-    font-size: rem(50px);
+    font-size: rem(30px);
     color: $light;
   
     @include size($md) {
         top: 25%;
+        padding-top: rem(300px);
         font-size: rem(60px);
         max-width: rem(800px);
+
     }
 }
 
 .learn-header__description {
     margin-bottom: rem(50px);
     font-family: $ff-main;
-    font-size: rem(20px);
+    font-size: rem(16px);
     color: $light;
+
+    @include size($md) {
+        font-size: rem(20px);
+    }
 }
 
 .learn-header__image-container {
@@ -102,11 +112,16 @@
 }
 
 .learn-content__links {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 2px;
     padding: 0;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, .2);
+
+    @include size($md) {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(300px, 1fr));
+    }
 }
 
 .learn-content__links-item {
@@ -143,28 +158,42 @@
 }
 
 .learn-content__links-link {
-    padding: 100px 0;
+    padding: 25px 0;
     font-family: $ff-main;
-    font-size: rem(20px);
+    font-size: rem(16px);
     color: $light;
     text-decoration: none;
+
+    @include size($md) {
+        padding: 100px 0;
+        font-size: rem(20px);
+    }
 }
 
 .learn-content__title {
     font-family: $ff-main;
     font-weight: $fw-bold;
-    font-size: rem(50px);
+    font-size: rem(28px);
     color: $ocean-blue;
+
+    @include size($md) {
+        font-size: rem(50px);
+    }
 }
 
 .learn-content__description {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     font-family: $ff-main;
-    font-size: rem(20px);
+    font-size: rem(16px);
     color: $dark;
 
     strong {
         color: $ocean-blue;
+    }
+
+    @include size($md) {
+        margin-bottom: 50px;
+        font-size: rem(20px);
     }
 }
 
@@ -183,7 +212,10 @@
 
 .learn-text-media--reverse {
     background-color: $blue;
-    flex-direction: row-reverse;
+
+    @include size($md) {        
+        flex-direction: row-reverse;
+    }
 
     .learn-text-media__text h3 {
         color: $dark-gold;
@@ -208,19 +240,28 @@
 }
 
 .learn-text-media__text {
-    width: 50%;
+    @include size($md) {
+        width: 50%;
+    }
 }
 
 .learn-text-media__media {
-    width: 50%;
+
+    @include size($md) {
+        width: 50%;
+    }
 }   
 
 .learn-text-media__image-container {
     margin: 0 auto;
-    width: 500px;
+    width: 100%;
     aspect-ratio: 1 / 1;
     border-radius: 5px;
     overflow: hidden;
+
+    @include size($md) {
+        width: 500px;
+    }
 }
 
 .learn-text-media__media-image {
@@ -257,12 +298,16 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 200px 100px;
-    width: 50%;
-    height: 600px;
+    padding: 50px 20px;
     text-align: center;
+
+    @include size($md) {
+        padding: 200px 100px;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        width: 50%;
+    }
 }
 
 .learn-split__section:nth-of-type(1) {
@@ -336,8 +381,12 @@
     padding-bottom: rem(30px);
     font-family: $ff-main;
     font-weight: $fw-bold;
-    font-size: rem(48px);
+    font-size: rem(28px);
     color: $dark;
+
+    @include size($md) {
+        font-size: rem(48px);
+    }
 }
 
 .learn-split__description {
@@ -347,13 +396,22 @@
 }
 
 .learn-split__list {
-    margin-top: 80px;
+    padding-left: 0;
+    margin-top: 40px;
     list-style: none;
     font-family: $ff-main;
+
+    @include size($md) {
+        margin-top: 80px;
+    }
 }
 
 .learn-split__list-item {
     padding: rem(20px 0);
-    font-size: rem(20px);
+    font-size: rem(16px);
     color: $dark;
+
+    @include size($md) {
+        font-size: rem(20px);
+    }
 }
