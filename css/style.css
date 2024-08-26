@@ -34,7 +34,7 @@ body {
   display: flex;
   padding: 0 1.25rem;
   justify-content: space-between;
-  z-index: 2;
+  z-index: 3;
 }
 @media (width > 768px) {
   .header {
