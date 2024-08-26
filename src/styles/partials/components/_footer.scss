@@ -97,13 +97,14 @@
   align-items: center;
   gap: 20px;
   padding: rem(10px 20px);
-  font-size: rem(14px);
+  font-size: rem(10px);
   font-family: $ff-main;
   font-weight: $fw-reg;
   color: $dark;
 
   @include size($md) {
     padding: rem(10px 50px);
+    font-size: rem(14px);
     text-align: center;
   }
 }
